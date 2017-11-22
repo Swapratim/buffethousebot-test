@@ -19,7 +19,7 @@ from flask import make_response
 # Flask should start in global layout
 context = Flask(__name__)
 # Facbook Access Token
-ACCESS_TOKEN = "EAAXRzkKCxVQBAImZBQo8kEpHVn0YDSVxRcadEHiMlZAcqSpu5pV7wAkZBKUs0eIZBcX1RmZCEV6cxJzuZAp5NO5ZCcJgZBJu4OPrFpKiAPJ5Hxlve2vrSthfMSZC3GqLnzwwRENQSzZAMyBXFCi1LtLWm9PhYucY88zPT4KEwcZCmhLYAZDZD"
+ACCESS_TOKEN = "EAAEvanZCLUMcBAIZC2DXdZBVjmV7FtLsE1L0Tz1avpMqWtOq39Mlah6LgYbVTXCAjnlRU2kX8yExz9bnS8Muikt7sFA9aW9OcZB7uZC6pIPZAgZCmQqKsD3kPeTKpZBMorxLrGenFWxrXZAENWoJFF65ye25gVrmjN8fbplmo2jkqxQZDZD"
 
 
 #************************************************************************************#
@@ -31,7 +31,7 @@ ACCESS_TOKEN = "EAAXRzkKCxVQBAImZBQo8kEpHVn0YDSVxRcadEHiMlZAcqSpu5pV7wAkZBKUs0eI
 @context.route('/webhook', methods=['POST'])
 def webhook():
     reqContext = request.get_json(silent=True, force=True)
-    #print(json.dumps(reqContext, indent=4))
+    print(json.dumps(reqContext, indent=4))
     print(reqContext.get("result").get("action"))
     print ("webhook is been hit ONCE ONLY")
     if reqContext.get("result").get("action") == "input.welcome":
