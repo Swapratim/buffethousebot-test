@@ -164,7 +164,6 @@ def reply(user_id, msg):
 #                English Default Menu                                                #
 #                                                                                    #
 #************************************************************************************#
-
 def englishDefaultMenu():
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
@@ -227,11 +226,10 @@ def englishDefaultMenu():
               ]
             }  
            };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
-
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                MENU ITEMS = Buffet + Items + Special                               #
@@ -302,10 +300,10 @@ def englishMenuCriteriaMenu(reqContext):
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 
 #************************************************************************************#
 #                                                                                    #
@@ -421,10 +419,10 @@ def englishMenuCriteriaMenuBuffet (reqContext):
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 
 #************************************************************************************#
 #                                                                                    #
@@ -473,10 +471,10 @@ def engMenuCriteriaMenuItems():
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            STARTER                                                 #
@@ -548,10 +546,10 @@ def engMenuCriteriaMenuItemsStarter():
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            MAIN DISH                                               #
@@ -648,10 +646,10 @@ def engMenuCriteriaMenuItemsMainDish():
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            DESSERT                                                 #
@@ -743,10 +741,10 @@ def engMenuCriteriaMenuItemsDessert():
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            SPECIAL                                                 #
@@ -828,10 +826,10 @@ def engMenuCriteriaMenuItemsSpecialMenu():
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            TAKE AWAY                                               #
@@ -992,10 +990,10 @@ def engDefaultMenuTakeAway():
      }]
    } 
  };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            ORDER BOOKING                                           #
@@ -1063,10 +1061,10 @@ def engDefaultMenuOrderBooking():
               ]
             }  
            };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            OPENING HOURS                                           #
@@ -1126,10 +1124,10 @@ def engDefaultMenuOpeningHours():
               ]
             }  
            };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 #************************************************************************************#
 #                                                                                    #
 #                            CONTACT US                                              #
@@ -1203,10 +1201,10 @@ def engDefaultMenuContactUs():
               ]
             }  
            };
-res = json.dumps(res, indent=4)
-r = make_response(res)
-r.headers['Content-Type'] = 'application/json'
-return r
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
  
 
 if __name__ == '__main__':
