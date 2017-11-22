@@ -1211,6 +1211,6 @@ def engDefaultMenuContactUs():
  
 
 if __name__ == '__main__':
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 7000))
     print("Starting APPLICATION on port %d" % port)
     context.run(debug=True, port=port, host='0.0.0.0')
