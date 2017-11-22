@@ -31,12 +31,11 @@ ACCESS_TOKEN = "EAAEvanZCLUMcBAIZC2DXdZBVjmV7FtLsE1L0Tz1avpMqWtOq39Mlah6LgYbVTXC
 @context.route('/webhook', methods=['POST'])
 def webhook():
     reqContext = request.get_json(silent=True, force=True)
-    print(json.dumps(reqContext, indent=4))
+    print ("Within webhook method...!!!")
+    print (json.dumps(reqContext, indent=4))
     print ("****************")
-    print(reqContext.get("result"))
+    print (reqContext.get("result").get("action"))
     print ("****************")
-    print(reqContext.get("result").get("action"))
-    print ("webhook is been hit ONCE ONLY")
     if reqContext.get("result").get("action") == "input.welcome":
        return welcome()
     elif reqContext.get("result").get("action") == "english.default.menu": 
