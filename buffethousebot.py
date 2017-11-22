@@ -1002,7 +1002,7 @@ return r
 #                                                                                    #
 #************************************************************************************#
 def engDefaultMenuOrderBooking():
-resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
             "displayText": "Main Menu",
