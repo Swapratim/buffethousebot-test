@@ -1135,8 +1135,8 @@ return r
 #                            CONTACT US                                              #
 #                                                                                    #
 #************************************************************************************#
- def engDefaultMenuContactUs():
-     resolvedQuery = reqContext.get("result").get("resolvedQuery")
+def engDefaultMenuContactUs():
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
             "displayText": "Main Menu",
