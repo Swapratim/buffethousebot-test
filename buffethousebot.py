@@ -77,15 +77,15 @@ def welcome():
     if dataload is None:
         return {}
     entry = dataload.get('originalRequest')
-    data = entry.get('data')
-    print (data)
-    if data is None:
+    data1 = entry.get('data')
+    print (data1)
+    if data1 is None:
         return {}
-    sender = data.get('sender')
+    sender = data1.get('sender')
     if sender is None:
         return {}
     id = sender.get('id')
-    #print ("id :" + id)
+    print ("id :" + id)
     fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
     print (fb_info)
     result = urllib.request.urlopen(fb_info).read()
