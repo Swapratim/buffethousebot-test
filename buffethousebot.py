@@ -79,7 +79,9 @@ def welcome():
     entry = dataload.get('originalRequest')
     data = entry.get('data')
     print (data)
-    sender = str(data.get('sender'))
+    sender = data.objects.filter(sender=sender).first()
+    print (sender)
+    #sender = str(data.get('sender'))
     id = sender.get('id')
     #print ("id :" + id)
     fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
