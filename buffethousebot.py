@@ -82,6 +82,8 @@ def welcome():
     if data is None:
         return {}
     sender = data.get('sender')
+    if sender is None:
+        return {}
     id = sender.get('id')
     #print ("id :" + id)
     fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
