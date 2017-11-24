@@ -14,6 +14,7 @@ import emoji
 from flask import Flask
 from flask import request, render_template
 from flask import make_response
+from flask import jsonify
 
 
 # Flask should start in global layout
