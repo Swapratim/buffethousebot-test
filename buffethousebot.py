@@ -72,14 +72,14 @@ def webhook():
 user_name = ""
 def welcome():
     print ("within welcome method")
-    data = request.json
-    print (data)
-    if data is None:
+    dataload = request.json
+    print (dataload)
+    if dataload is None:
         return {}
-    entry = data.get('originalRequest')
-    dataall = entry.get('data')
-    print (dataall)
-    sender = dataall.get('sender')
+    entry = dataload.get('originalRequest')
+    data = entry.get('data')
+    print (data)
+    sender = str(data.get('sender'))
     id = sender.get('id')
     #print ("id :" + id)
     fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
