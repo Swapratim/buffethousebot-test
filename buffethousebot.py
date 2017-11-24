@@ -73,14 +73,18 @@ user_name = ""
 def welcome():
     print ("within Welcome Method")
     data = request.json
+    print ("data::::::::::::::")
     print (data)
     if data is None:
         return {}
     entry = data.get('originalRequest')
+    print ("entry:::::::::::::")
     print (entry)
     dataall = entry.get('data')
+    print ("dataall:::::::::::")
     print (dataall)
     sender = dataall.get('sender')
+    sender ("sender::::::::::")
     print (sender)
     id = sender.get('id')
     #print ("id :" + id)
