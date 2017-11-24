@@ -83,7 +83,7 @@ def welcome():
     dataall = entry.get('data')
     print ("dataall:::::::::::")
     print (dataall)
-    id1 = data.get('originalRequest').get('data').get('sender').get('id')
+    id1 = data.get('originalRequest').get('data') #.get('sender').get('id')
     print (id1)
     sender = dataall.get('sender')
     sender ("sender::::::::::")
