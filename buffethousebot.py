@@ -166,6 +166,9 @@ def welcome():
     return r
 
 def reply(user_id, msg):
+    print ("Within REPLY method")
+    print ("user_id" + user_id)
+    print ("msg" + msg)
     data = {
         "recipient": {"id": user_id},
         "message": {"text": msg}
