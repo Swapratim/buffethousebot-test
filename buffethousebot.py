@@ -78,11 +78,12 @@ def welcome():
         return {}
     entry = data.get('originalRequest')
     dataall = entry.get('data')
+    print (dataall)
     sender = dataall.get('sender')
     id = sender.get('id')
     #print ("id :" + id)
     fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
-    #print (fb_info)
+    print (fb_info)
     result = urllib.request.urlopen(fb_info).read()
     #print (result)
     data = json.loads(result)
