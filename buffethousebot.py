@@ -77,11 +77,11 @@ def welcome():
     if dataload is None:
         return {}
     entry = dataload.get('originalRequest')
-    data1 = entry.get('data')
+    data1 = jsonify(entry.get('data'))
     print (data1)
     if data1 is None:
         return {}
-    sender = data1.get('sender')
+    sender = jsonify(data1.get('sender'))
     if sender is None:
         return {}
     id = sender.get('id')
