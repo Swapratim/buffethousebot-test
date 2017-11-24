@@ -87,7 +87,7 @@ def welcome():
     if data1 is None:
         return {}
 
-    sender = data1.get('sender'))
+    sender = data1.get('sender')
     print ("sender::::::::::")
     print (sender)
     if sender is None:
