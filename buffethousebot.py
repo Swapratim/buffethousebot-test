@@ -8,7 +8,7 @@ import json
 import os
 import sys
 import psycopg2
-import urlparse
+#import urlparse
 import emoji
 
 from flask import Flask
