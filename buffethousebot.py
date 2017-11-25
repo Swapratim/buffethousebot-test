@@ -449,25 +449,25 @@ def engMenuCriteriaMenuItems(reqContext):
                      "content_type": "text",
                      "title": "Starter",
                      "payload": "Starter",
-                     "image_url": "Starter icon"
+                     "image_url": "https://cdn1.iconfinder.com/data/icons/food-drinks-set-2/96/Soup-512.png"
                 },
                 {
                      "content_type": "text",
                      "title": "Main Dish",
                      "payload": "Main Dish",
-                     "image_url": "Main Dish icon"
+                     "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
                 },
                 {
                      "content_type": "text",
                      "title": "Dessert",
                      "payload": "Dessert",
-                     "image_url": "Dessert icon"
+                     "image_url": "https://image.flaticon.com/icons/png/512/53/53628.png"
                 },
                 {
                      "content_type": "text",
                      "title": "Back",
                      "payload": "Back",
-                     "image_url": "Back icon"
+                     "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
                 }
              ]
          }
