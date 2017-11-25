@@ -503,22 +503,22 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
                                  {
                                    "title" : "Poppadom",
                                    "image_url" : "http://gdurl.com/o-sy",
-                                   "subtitle" : "Fresh baked Nan from Tandoor oven",
+                                   "subtitle" : "Indian snack speciality",
                                  },
                                  {
                                    "title" : "Chapli Kebab",
                                    "image_url" : "http://gdurl.com/fexl",
-                                   "subtitle" : "Tasty Pulav Rice",
+                                   "subtitle" : "Pashtun-style minced kebab, originated from Peshawar",
                                  },
                                  {
                                    "title" : "Samosa",
                                    "image_url" : "http://gdurl.com/ntEB",
-                                   "subtitle" : "Authentic Indian Sanck - cannot eat just one",
+                                   "subtitle" : "It was originated in the Middle East back at 10th century",
                                  },
                                  {
                                    "title" : "Salad",
                                    "image_url" : "http://gdurl.com/A9X0",
-                                   "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
+                                   "subtitle" : "An ancient Greek & Roman delicacy",
                                  },
                              ]
                        } 
@@ -620,12 +620,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/CIXA",
                                    "subtitle" : "Available only at 75, 79 & 109 dk",
-                                 }
-                             ]
-                       } 
-                   }
-                },
-               
+                                },
+                          ]
+                    } 
+              }
+         },
         {
       "text": "Please select any option below:",
       "quick_replies": [
@@ -648,7 +647,8 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
           "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
-     }]
+     }
+    ]
    } 
  };
     res = json.dumps(res, indent=4)
