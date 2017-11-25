@@ -164,6 +164,7 @@ def reply(user_id, msg):
 #                                                                                    #
 #************************************************************************************#
 def englishDefaultMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -235,6 +236,7 @@ def englishDefaultMenu(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def englishMenuCriteriaMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -310,6 +312,7 @@ def englishMenuCriteriaMenu(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def englishMenuCriteriaMenuBuffet (reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Events",
@@ -429,46 +432,47 @@ def englishMenuCriteriaMenuBuffet (reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engMenuCriteriaMenuItems(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
-            "speech": "Main Menu",
-            "displayText": "Main Menu",
+            "speech": "Taste the best - enjoy the variety  of dishes selected",
+            "displayText": "Taste the best - enjoy the variety  of dishes selected",
             "data" : {
             "facebook" : [
-               {
-                    "sender_action": "typing_on"
-               },
-               
-        {
-      "text": "Taste the best - enjoy the variety  of dishes selected",
-      "quick_replies": [
-        {
-          "content_type": "text",
-          "title": "Starter",
-          "payload": "Starter",
-          "image_url": "Starter icon"
-        },
-        {
-          "content_type": "text",
-          "title": "Main Dish",
-          "payload": "Main Dish",
-          "image_url": "Main Dish icon"
-        },
-        {
-          "content_type": "text",
-          "title": "Dessert",
-          "payload": "Dessert",
-          "image_url": "Dessert icon"
-        },
-        {
-          "content_type": "text",
-          "title": "Back",
-          "payload": "Back",
-          "image_url": "Back icon"
-        }
-       ]
-     }]
-   } 
+                {
+                   "sender_action": "typing_on"
+                },
+                {
+                   "text": "Taste the best - enjoy the variety  of dishes selected",
+                   "quick_replies": [
+                {
+                     "content_type": "text",
+                     "title": "Starter",
+                     "payload": "Starter",
+                     "image_url": "Starter icon"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Main Dish",
+                     "payload": "Main Dish",
+                     "image_url": "Main Dish icon"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Dessert",
+                     "payload": "Dessert",
+                     "image_url": "Dessert icon"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Back",
+                     "payload": "Back",
+                     "image_url": "Back icon"
+                }
+             ]
+         }
+      ]
+    } 
  };
     res = json.dumps(res, indent=4)
     r = make_response(res)
@@ -480,6 +484,7 @@ def engMenuCriteriaMenuItems(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engMenuCriteriaMenuItemsStarter(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -555,6 +560,7 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engMenuCriteriaMenuItemsMainDish(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -655,6 +661,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engMenuCriteriaMenuItemsDessert(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -750,6 +757,7 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -835,6 +843,7 @@ def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engDefaultMenuTakeAway(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -974,7 +983,6 @@ def engDefaultMenuTakeAway(reqContext):
                        } 
                    }
                 },
-               
         {
       "text": "Please select any option below:",
       "quick_replies": [
@@ -1010,6 +1018,7 @@ def engDefaultMenuTakeAway(reqContext):
 #                                                                                    #
 #************************************************************************************#
 def engDefaultMenuOrderBooking(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
