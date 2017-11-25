@@ -616,11 +616,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "image_url" : "http://gdurl.com/6foJ",
                                    "subtitle" : "Available only at 69 dk",
                                  },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Sag",
-                                   "image_url" : "http://gdurl.com/CIXA",
-                                   "subtitle" : "Available only at 75, 79 & 109 dk",
-                                }
+                                 
                         ]
                  } 
              }
