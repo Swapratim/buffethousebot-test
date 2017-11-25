@@ -577,45 +577,50 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Vanilla Milkshake",
-                                   "image_url" : "http://gdurl.com/JbfC",
-                                   "subtitle" : "Available only at 39,-",
+                                   "title" : "Garlic Nan",
+                                   "image_url" : "http://gdurl.com/5gdU",
+                                   "subtitle" : "Available at 19, 23,-",
                                  },
                                  {
-                                   "title" : "Pistacie Milkshake",
-                                   "image_url" : "http://gdurl.com/9qwM",
-                                   "subtitle" : "Available only at 39,-",
+                                   "title" : "Lamb Curry",
+                                   "image_url" : "http://gdurl.com/EHRR",
+                                   "subtitle" : "Available at 99, 109, 119,-",
                                  },
                                  {
-                                   "title" : "Strawberry Milkshake",
-                                   "image_url" : "http://gdurl.com/YJCbU",
-                                   "subtitle" : "Available only at 39,-",
+                                   "title" : "Beef Korma",
+                                   "image_url" : "http://gdurl.com/tTym",
+                                   "subtitle" : "Available at 85, 95, 99,-",
                                  },
                                  {
-                                   "title" : "Chocolate Milkshake",
-                                   "image_url" : "http://gdurl.com/hzul",
-                                   "subtitle" : "Available only at 39,-",
+                                   "title" : "Butter Chicken",
+                                   "image_url" : "http://gdurl.com/R9sS",
+                                   "subtitle" : "Available at 79, 99, 109,-",
                                  },
                                  {
-                                   "title" : "Mango Lasse Yoghurt",
-                                   "image_url" : "http://gdurl.com/KKkO",
-                                   "subtitle" : "Available only at 39,-",
+                                   "title" : "Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/BldI",
+                                   "subtitle" : "Available at 79, 89,-",
                                  },
                                  {
-                                   "title" : "0,5L Sodawater",
-                                   "image_url" : "http://gdurl.com/t4bq",
-                                   "subtitle" : "Available only at 25,-",
+                                   "title" : "Beef Roganjosh",
+                                   "image_url" : "http://gdurl.com/lRxq",
+                                   "subtitle" : "Available at 89,-",
                                  },
                                  {
-                                   "title" : "1,5L Sodavand",
-                                   "image_url" : "http://gdurl.com/t4bq",
-                                   "subtitle" : "Available only at 35,-",
+                                   "title" : "Palak Paneer",
+                                   "image_url" : "http://gdurl.com/bu4p",
+                                   "subtitle" : "Available at 79,-",
                                  },
                                  {
-                                   "title" : "Cold Water",
-                                   "image_url" : "http://gdurl.com/D3Su",
-                                   "subtitle" : "Available only at 25,-",
-                                 }
+                                   "title" : "Sag Allo",
+                                   "image_url" : "http://gdurl.com/6foJ",
+                                   "subtitle" : "Available at 69,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Sag",
+                                   "image_url" : "http://gdurl.com/CIXA",
+                                   "subtitle" : "Available at 75, 79, 109,-",
+                                },
                         ]
                  } 
              }
