@@ -577,32 +577,32 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Garlic Nan",
+                                   "title" : "Nan/Garlic Nan",
                                    "image_url" : "http://gdurl.com/5gdU",
                                    "subtitle" : "Available only at 19 & 23 dk",
                                  },
                                  {
-                                   "title" : "Lamb Curry",
+                                   "title" : "Chicken/Beef/Lamb Curry",
                                    "image_url" : "http://gdurl.com/EHRR",
                                    "subtitle" : "Available only at 99, 109 & 119 dk",
                                  },
                                  {
-                                   "title" : "Chicken Korma",
+                                   "title" : "Chicken/Beef/Lamb Korma",
                                    "image_url" : "http://gdurl.com/tTym",
                                    "subtitle" : "Available only at 85, 95 & 99 dk",
                                  },
                                  {
-                                   "title" : "Butter Chicken",
+                                   "title" : "Butter Chicken/Lamb/Beef",
                                    "image_url" : "http://gdurl.com/R9sS",
                                    "subtitle" : "Available only at 79, 99 & 109 dk",
                                  },
                                  {
-                                   "title" : "Lamb Kashmiri",
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
                                    "image_url" : "http://gdurl.com/BldI",
                                    "subtitle" : "Available only at 79, 89 & 89 dk",
                                  },
                                  {
-                                   "title" : "Beef Roganjosh",
+                                   "title" : "Beef/Lamb Roganjosh",
                                    "image_url" : "http://gdurl.com/lRxq",
                                    "subtitle" : "Available only at 89 dk",
                                  },
@@ -621,10 +621,10 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "image_url" : "http://gdurl.com/CIXA",
                                    "subtitle" : "Available only at 75, 79 & 109 dk",
                                 },
-                          ]
-                    } 
-              }
-         },
+                             ]
+                       } 
+                   }
+                },
         {
       "text": "Please select any option below:",
       "quick_replies": [
