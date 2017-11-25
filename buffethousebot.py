@@ -81,7 +81,7 @@ def welcome():
     if entry is None:
         return {}
 
-    data1 = json.loads(entry.get('data'))
+    data1 = entry.get('data')
     print ("data1:::::::::::::::")
     print (data1)
     if data1 is None:
