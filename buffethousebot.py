@@ -577,7 +577,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Nan/Garlic Nan",
+                                   "title" : "Garlic Nan",
                                    "image_url" : "http://gdurl.com/5gdU",
                                    "subtitle" : "Available at 19, 23,-",
                                  }
