@@ -596,6 +596,16 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "image_url" : "http://gdurl.com/R9sS",
                                    "subtitle" : "Available at 79, 99, 109,-",
                                  },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/BldI",
+                                   "subtitle" : "Available at 79, 89,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Roganjosh",
+                                   "image_url" : "http://gdurl.com/lRxq",
+                                   "subtitle" : "Available at 89,-",
+                                 },
                         ]
                  } 
              }
