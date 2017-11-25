@@ -597,11 +597,6 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "subtitle" : "Available at 79, 99, 109,-",
                                  },
                                  {
-                                   "title" : "Lamb Kashmiri",
-                                   "image_url" : "http://gdurl.com/BldI",
-                                   "subtitle" : "Available at 79, 89,-",
-                                 },
-                                 {
                                    "title" : "Beef Roganjosh",
                                    "image_url" : "http://gdurl.com/lRxq",
                                    "subtitle" : "Available at 89,-",
@@ -616,11 +611,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "image_url" : "http://gdurl.com/6foJ",
                                    "subtitle" : "Available at 69,-",
                                  },
-                                 {
-                                   "title" : "Lamb Sag",
-                                   "image_url" : "http://gdurl.com/CIXA",
-                                   "subtitle" : "Available at 75, 79, 109,-",
-                                 },
+                                 
                         ]
                  } 
              }
