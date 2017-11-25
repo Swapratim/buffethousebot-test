@@ -586,31 +586,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "image_url" : "http://gdurl.com/EHRR",
                                    "subtitle" : "Available at 99, 109, 119,-",
                                  },
-                                 {
-                                   "title" : "Beef Korma",
-                                   "image_url" : "http://gdurl.com/tTym",
-                                   "subtitle" : "Available at 85, 95, 99,-",
-                                 },
-                                 {
-                                   "title" : "Butter Chicken",
-                                   "image_url" : "http://gdurl.com/R9sS",
-                                   "subtitle" : "Available at 79, 99, 109,-",
-                                 },
-                                 {
-                                   "title" : "Beef Roganjosh",
-                                   "image_url" : "http://gdurl.com/lRxq",
-                                   "subtitle" : "Available at 89,-",
-                                 },
-                                 {
-                                   "title" : "Palak Paneer",
-                                   "image_url" : "http://gdurl.com/bu4p",
-                                   "subtitle" : "Available at 79,-",
-                                 },
-                                 {
-                                   "title" : "Sag Allo",
-                                   "image_url" : "http://gdurl.com/6foJ",
-                                   "subtitle" : "Available at 69,-",
-                                 }
+                                 
                         ]
                  } 
              }
