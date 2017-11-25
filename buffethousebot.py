@@ -592,11 +592,6 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "subtitle" : "Available only at 85, 95 & 99 dk",
                                  },
                                  {
-                                   "title" : "Butter Chicken/Lamb/Beef",
-                                   "image_url" : "http://gdurl.com/R9sS",
-                                   "subtitle" : "Available only at 79, 99 & 109 dk",
-                                 },
-                                 {
                                    "title" : "Chicken/Beef/Lamb Kashmiri",
                                    "image_url" : "http://gdurl.com/BldI",
                                    "subtitle" : "Available only at 79, 89 & 89 dk",
