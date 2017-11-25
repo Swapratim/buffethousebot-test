@@ -32,34 +32,34 @@ ACCESS_TOKEN = "EAAEvanZCLUMcBAIZC2DXdZBVjmV7FtLsE1L0Tz1avpMqWtOq39Mlah6LgYbVTXC
 def webhook():
     reqContext = request.get_json(silent=True, force=True)
     print ("Within webhook method...!!!")
-    print (json.dumps(reqContext, indent=4))
-    print ("****************")
-    print (reqContext.get("result").get("action"))
-    print ("****************")
+    #print (json.dumps(reqContext, indent=4))
+    #print ("****************")
+    #print (reqContext.get("result").get("action"))
+    #print ("****************")
     if reqContext.get("result").get("action") == "input.welcome":
        return welcome()
     elif reqContext.get("result").get("action") == "english.default.menu": 
-       return englishDefaultMenu()
+       return englishDefaultMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu":
-       return englishMenuCriteriaMenu()
+       return englishMenuCriteriaMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu.Buffet":
-       return englishMenuCriteriaMenu()
+       return englishMenuCriteriaMenu(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items":
-       return engMenuCriteriaMenuItems()
+       return engMenuCriteriaMenuItems(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.Starter":
-       return engMenuCriteriaMenuItemsStarter()
+       return engMenuCriteriaMenuItemsStarter(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.MainDish":
-       return engMenuCriteriaMenuItemsMainDish()
+       return engMenuCriteriaMenuItemsMainDish(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.Dessert":
-       return engMenuCriteriaMenuItemsDessert()
+       return engMenuCriteriaMenuItemsDessert(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.take.away":
-       return engDefaultMenuTakeAway()
+       return engDefaultMenuTakeAway(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.order.booking": 
-       return engDefaultMenuOrderBooking()
+       return engDefaultMenuOrderBooking(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.opening.hours":
-       return engDefaultMenuOpeningHours()
+       return engDefaultMenuOpeningHours(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.contact.us":
-       return engDefaultMenuContactUs()
+       return engDefaultMenuContactUs(reqContext)
     else:
        print("Good Bye")
 
