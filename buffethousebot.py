@@ -582,7 +582,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "subtitle" : "Available at 19, 23,-",
                                  },
                                  {
-                                   "title" : "Lamb Curry",
+                                   "title" : "Chicken/Beef/Lamb Curry",
                                    "image_url" : "http://gdurl.com/EHRR",
                                    "subtitle" : "Available at 99, 109, 119,-",
                                  },
