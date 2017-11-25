@@ -620,11 +620,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/CIXA",
                                    "subtitle" : "Available only at 75, 79 & 109 dk",
-                                },
-                             ]
-                       } 
-                   }
-                },
+                                }
+                        ]
+                 } 
+             }
+        },
         {
       "text": "Please select any option below:",
       "quick_replies": [
