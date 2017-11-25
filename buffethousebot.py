@@ -610,8 +610,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Sag Allo",
                                    "image_url" : "http://gdurl.com/6foJ",
                                    "subtitle" : "Available at 69,-",
-                                 },
-                                 
+                                 }
                         ]
                  } 
              }
