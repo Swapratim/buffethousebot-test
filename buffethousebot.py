@@ -100,7 +100,7 @@ def welcome():
                        "elements" : [ 
                                  {
                                    "title" : "Hi " + first_name + "! Welcome to Buffet House Restaurant" + emoji.emojize(':smiley:', use_aliases=True),
-                                   "image_url" : "https://drive.google.com/file/d/1ZzoPEFInSRNECOCvbYaYHSLe2Ml5SRoA/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/tjDK",
                                  } 
                            ]
                        } 
@@ -347,52 +347,52 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Nan",
-                                   "image_url" : "https://drive.google.com/file/d/1D2cz50tgkUjW9wKNRIxTIPYgMJolLmNX/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/5gdU",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven",
                                  },
                                  {
                                    "title" : "Pulav Rice",
-                                   "image_url" : "https://drive.google.com/file/d/1c8ut2XlE-0HLcGUWkvD6023VuT5xn_qn/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/pXUU",
                                    "subtitle" : "Tasty Pulav Rice",
                                  },
                                  {
                                    "title" : "Samosa",
-                                   "image_url" : "https://drive.google.com/file/d/10xl7J5zAf2i1UWXdlIcHddgaMHOgIchZ/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ntEB",
                                    "subtitle" : "Authentic Indian Sanck - cannot eat just one",
                                  },
                                  {
                                    "title" : "Chicken Tandoori",
-                                   "image_url" : "https://drive.google.com/file/d/1RKTTtfq8JhN0JZfpQ0vB0EAGRaH4U6GU/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/iMs7",
                                    "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
                                  },
                                  {
                                    "title" : "Chicken Butter Masala",
-                                   "image_url" : "https://drive.google.com/file/d/1qTMFGuSNqPaMlUChG-hUiQ0pAhYDOIv_/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/R9sS",
                                    "subtitle" : "A century old delicious dish - still favorite to food lovers",
                                  },
                                  {
                                    "title" : "Beef Roganjosh",
-                                   "image_url" : "https://drive.google.com/file/d/1je8x6jU6V_0PQfqPZ0zjvW4YRsPEbseM/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/lRxq",
                                    "subtitle" : "An aromatic dish of Persian origin - one of the signature recipes of Kashmiri cuisine",
                                  },
                                  {
                                    "title" : "Chicken Kofta Korma",
-                                   "image_url" : "https://drive.google.com/file/d/1_A3t2dicXA6M1XT3xO6E0Jlc6Q-26cen/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/tTym",
                                    "subtitle" : "Tasty and spicy equivalent of famous meatballs, originated in Middle East",
                                  },
                                  {
                                    "title" : "Chicken Curry",
-                                   "image_url" : "https://drive.google.com/file/d/1_dCgGYQI1bLwVahnPcpFu7Iuq3MOMj32/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/EHRR",
                                    "subtitle" : "A global cuisine, with Indian origin from heart - a must try dish",
                                  },
                                  {
                                    "title" : "Sag Allo",
-                                   "image_url" : "https://drive.google.com/file/d/1EluNKKsqhp6nOTnSy4JNAKuIYm9sHF8I/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/6foJ",
                                    "subtitle" : "Do not miss the tasty vegeterian dish",
                                  },
                                  {
                                    "title" : "Allo Dum",
-                                   "image_url" : "https://drive.google.com/file/d/1Mj7CYBb_niav7PibId756aSzAwK0VZF0/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/n19M",
                                    "subtitle" : "Do not miss the tasty vegeterian dish",
                                  }
                            ]
@@ -497,22 +497,22 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Poppadom",
-                                   "image_url" : "https://drive.google.com/file/d/1O3prrWxJWPoVZ1zDHYZbA9x5Dx1Y_mt5/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/o-sy",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven",
                                  },
                                  {
                                    "title" : "Chapli Kebab",
-                                   "image_url" : "https://drive.google.com/file/d/1DWva3Gs5GwTbn6w1uQA-KSj48q_NAEGG/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/fexl",
                                    "subtitle" : "Tasty Pulav Rice",
                                  },
                                  {
                                    "title" : "Samosa",
-                                   "image_url" : "https://drive.google.com/file/d/10xl7J5zAf2i1UWXdlIcHddgaMHOgIchZ/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ntEB",
                                    "subtitle" : "Authentic Indian Sanck - cannot eat just one",
                                  },
                                  {
                                    "title" : "Salad",
-                                   "image_url" : "https://drive.google.com/file/d/1cMTjx7krBnIfGmK1IgsTCpE-BkR5MyRz/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/A9X0",
                                    "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
                                  },
                              ]
@@ -572,47 +572,47 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Nan/Garlic Nan",
-                                   "image_url" : "https://drive.google.com/file/d/1D2cz50tgkUjW9wKNRIxTIPYgMJolLmNX/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/5gdU",
                                    "subtitle" : "Available only at 19 & 23 dk",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Curry",
-                                   "image_url" : "https://drive.google.com/file/d/1_dCgGYQI1bLwVahnPcpFu7Iuq3MOMj32/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/EHRR",
                                    "subtitle" : "Available only at 99, 109 & 119 dk",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Korma",
-                                   "image_url" : "https://drive.google.com/file/d/1_dCgGYQI1bLwVahnPcpFu7Iuq3MOMj32/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/tTym",
                                    "subtitle" : "Available only at 85, 95 & 99 dk",
                                  },
                                  {
                                    "title" : "Butter Chicken/Lamb/Beef",
-                                   "image_url" : "https://drive.google.com/file/d/1qTMFGuSNqPaMlUChG-hUiQ0pAhYDOIv_/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/R9sS",
                                    "subtitle" : "Available only at 79, 99 & 109 dk",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Kashmiri",
-                                   "image_url" : "https://drive.google.com/file/d/1IvF3sPybR9k6Xr1Gkut8zotRLCRqdavc/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/BldI",
                                    "subtitle" : "Available only at 79, 89 & 89 dk",
                                  },
                                  {
                                    "title" : "Beef/Lamb Roganjosh",
-                                   "image_url" : "https://drive.google.com/file/d/1je8x6jU6V_0PQfqPZ0zjvW4YRsPEbseM/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/lRxq",
                                    "subtitle" : "Available only at 89 dk",
                                  },
                                  {
                                    "title" : "Palak Paneer",
-                                   "image_url" : "https://drive.google.com/file/d/1ZB1diTHrdmHhJlxIhAWFxAcA5dbIDG9s/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/bu4p",
                                    "subtitle" : "Available only at 79 dk",
                                  },
                                  {
                                    "title" : "Sag Allo",
-                                   "image_url" : "https://drive.google.com/file/d/1EluNKKsqhp6nOTnSy4JNAKuIYm9sHF8I/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/6foJ",
                                    "subtitle" : "Available only at 69 dk",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Sag",
-                                   "image_url" : "https://drive.google.com/file/d/1DjFWwV6smvw8S_8luG2ikQLooE1VtIm3/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/CIXA",
                                    "subtitle" : "Available only at 75, 79 & 109 dk",
                                  }
                              ]
@@ -672,42 +672,42 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Vanilla Milkshake",
-                                   "image_url" : "https://drive.google.com/file/d/1Qsrrqt8ULifSvyUxMvjAW8wQNixpTb_G/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/JbfC",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Pistacie Milkshake",
-                                   "image_url" : "https://drive.google.com/file/d/1Eig1SkrGZufo9klBg-pYAI76EbookYK5/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/9qwM",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Strawberry Milkshake",
-                                   "image_url" : "https://drive.google.com/file/d/1_9TXFdjfka0dUgv_v7NyO6nuUzd-1L4E/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/YJCbU",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Chocolate Milkshake",
-                                   "image_url" : "https://drive.google.com/file/d/1n327SdPO3o0oWsmvb29qaj3Rfv1FlIKD/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/hzul",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Mango Lasse Yoghurt",
-                                   "image_url" : "https://drive.google.com/file/d/1fmmbfEAOQzRkyHZ3vaXJFv8bTqZdNeao/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/KKkO",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "0,5L Sodawater",
-                                   "image_url" : "https://drive.google.com/file/d/1d3Jt-o3ejGmaUctZavhd50eBUZ463xpZ/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/t4bq",
                                    "subtitle" : "Available only at 25,-",
                                  },
                                  {
                                    "title" : "1,5L Sodavand",
-                                   "image_url" : "https://drive.google.com/file/d/1d3Jt-o3ejGmaUctZavhd50eBUZ463xpZ/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/t4bq",
                                    "subtitle" : "Available only at 35,-",
                                  },
                                  {
                                    "title" : "Cold Water",
-                                   "image_url" : "https://drive.google.com/file/d/1zrw85iZsOlw_t9I-gTGAk0MR_G2l187_/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/D3Su",
                                    "subtitle" : "Available only at 25,-",
                                  }
                              ]
@@ -767,32 +767,32 @@ def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Sabzi Biriyani",
-                                   "image_url" : "https://drive.google.com/file/d/1vwIjGO-cOD5IUzbTdahbux_Tg-kmTsvG/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/QpGk",
                                    "subtitle" : "Available only at 119,-",
                                  },
                                  {
                                    "title" : "Chicken Biriyani",
-                                   "image_url" : "https://drive.google.com/file/d/1JtaHsSX5M04GMcA6cFvuVkrA39KoMWTu/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/pRyi",
                                    "subtitle" : "Available only at 119,-",
                                  },
                                  {
                                    "title" : "Chicken Tikka Biriyani",
-                                   "image_url" : "https://drive.google.com/file/d/1YvzHogoJcpKkJemMetnt4BC5wWzgjLAq/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/RH5I",
                                    "subtitle" : "Available only at 119,-",
                                  },
                                  {
                                    "title" : "Lamb Biriyani",
-                                   "image_url" : "https://drive.google.com/file/d/14MHSaQhS9xJFlUOXRhMJL2uP2q444IM_/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/89Of",
                                    "subtitle" : "Available only at 139,-",
                                  },
                                  {
                                    "title" : "Beef Biriyani",
-                                   "image_url" : "https://drive.google.com/file/d/1nQAwJjGJPOjHwXjDZLheP6p6zXWI9xEx/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/dHh8",
                                    "subtitle" : "Available only at 119,-",
                                  },
                                  {
                                    "title" : "Luxury Biriyani",
-                                   "image_url" : "https://drive.google.com/file/d/1bOUKfCyvNRpEu_sHdOOeGR8Kl-b0x9W_/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/EUAwK",
                                    "subtitle" : "Available only at 139,-",
                                  }
                              ]
@@ -854,7 +854,7 @@ def engDefaultMenuTakeAway(reqContext):
                  "attachment":{
                         "type":"image", 
                         "payload":{
-                        "url":"https://drive.google.com/file/d/1oIYZuvexLZUJLHINNXNzTEc-hlKjB8SW/view?usp=sharing"
+                        "url":"http://gdurl.com/HNzO"
                      }
                  }
                },
@@ -872,7 +872,7 @@ def engDefaultMenuTakeAway(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "M1-Butter Chicken & Sag Allo",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -882,7 +882,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M2-Lamb Korma & Chicken Curry",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -892,7 +892,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M3-Beef Roganjosh & Chicken Kofta",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -902,7 +902,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M4-Chicken Tikka & Samosa",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -912,7 +912,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M5-Kofta Butter Masala & Samosa (Veg)",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -922,7 +922,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M6-Lamb Korma & Beef Roganjosh",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -932,7 +932,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M7-Chicken Tikka & Beef Roganjosh",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -942,7 +942,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M8-Beef Roganjosh & Chicken Curry",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -952,7 +952,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M9-Lamb Korma & Chicken Kofta",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -962,7 +962,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M10-Kofta Curry & Samosa (Veg)",
-                                   "image_url" : "https://drive.google.com/file/d/1XKfU8PHJbfqyH2FyK7A4MVX32ec0MT6i/view?usp=sharing",
+                                   "image_url" : "http://gdurl.com/ZuLh",
                                    "subtitle" : "Available only at 99,-",
                                    "buttons": [{
                                         "type": "web_url",
