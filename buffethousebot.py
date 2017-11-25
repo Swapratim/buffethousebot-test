@@ -283,7 +283,7 @@ def englishMenuCriteriaMenu(reqContext):
           "content_type": "text",
           "title": "Start Over",
           "payload": "Start Over",
-          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         },
         {
           "content_type": "text",
@@ -415,7 +415,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
          "content_type": "text",
          "title": "Start Over",
          "payload": "Start Over",
-         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+         "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
      }]
@@ -532,19 +532,19 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
           "content_type": "text",
           "title": "Back",
           "payload": "Back",
-          "image_url": "Back icon"
+          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
         },
         {
           "content_type": "text",
           "title": "Menu",
           "payload": "Menu",
-          "image_url": "Menu icon"
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
           "content_type": "text",
           "title": "Start Over",
           "payload": "Start Over",
-          "image_url": "Start Over icon"
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
      }]
@@ -633,19 +633,19 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
           "content_type": "text",
           "title": "Back",
           "payload": "Back",
-          "image_url": "Back icon"
+          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
         },
         {
           "content_type": "text",
           "title": "Menu",
           "payload": "Menu",
-          "image_url": "Menu icon"
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
           "content_type": "text",
           "title": "Start Over",
           "payload": "Start Over",
-          "image_url": "Start Over icon"
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
      }]
@@ -729,19 +729,19 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
           "content_type": "text",
           "title": "Back",
           "payload": "Back",
-          "image_url": "Back icon"
+          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
         },
         {
           "content_type": "text",
           "title": "Menu",
           "payload": "Menu",
-          "image_url": "Menu icon"
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
           "content_type": "text",
           "title": "Start Over",
           "payload": "Start Over",
-          "image_url": "Start Over icon"
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
      }]
@@ -815,19 +815,19 @@ def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
           "content_type": "text",
           "title": "Back",
           "payload": "Back",
-          "image_url": "Back icon"
+          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
         },
         {
           "content_type": "text",
           "title": "Menu",
           "payload": "Menu",
-          "image_url": "Menu icon"
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
           "content_type": "text",
           "title": "Start Over",
           "payload": "Start Over",
-          "image_url": "Start Over icon"
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
      }]
@@ -990,7 +990,7 @@ def engDefaultMenuTakeAway(reqContext):
           "content_type": "text",
           "title": "Start Over",
           "payload": "Start Over",
-          "image_url": "Start Over icon"
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         },
         {
           "content_type": "text",
@@ -1213,7 +1213,7 @@ def engDefaultMenuContactUs(reqContext):
                   "content_type": "text",
                   "title": "Start Over",
                   "payload": "Start Over",
-                  "image_url": "Start Over icon"
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
                   }
                  ]
                 }
