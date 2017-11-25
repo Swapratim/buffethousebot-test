@@ -19,8 +19,8 @@ from flask import make_response
 # Flask should start in global layout
 context = Flask(__name__)
 # Facbook Access Token
-#ACCESS_TOKEN = "EAAEvanZCLUMcBAIZC2DXdZBVjmV7FtLsE1L0Tz1avpMqWtOq39Mlah6LgYbVTXCAjnlRU2kX8yExz9bnS8Muikt7sFA9aW9OcZB7uZC6pIPZAgZCmQqKsD3kPeTKpZBMorxLrGenFWxrXZAENWoJFF65ye25gVrmjN8fbplmo2jkqxQZDZD"
-ACCESS_TOKEN = "EAAWYbylWZA6wBADhibpOkrvZCMRNItJo0xDdjTkyCUdbhuo15q9pM0H16itMfwDcboCcPiJYUGzKar2Kgkvjr9aCfdbDvOGZAdItQsc7uJI47VedUFvDF0xyhoRXhxXY3yE8JpqyjDrLrZAI2p08ur9EZCZB7AMO4COik6i0nMVsojXUcq4Qsj"
+ACCESS_TOKEN = "EAAEvanZCLUMcBAIZC2DXdZBVjmV7FtLsE1L0Tz1avpMqWtOq39Mlah6LgYbVTXCAjnlRU2kX8yExz9bnS8Muikt7sFA9aW9OcZB7uZC6pIPZAgZCmQqKsD3kPeTKpZBMorxLrGenFWxrXZAENWoJFF65ye25gVrmjN8fbplmo2jkqxQZDZD"
+#ACCESS_TOKEN = "EAAWYbylWZA6wBADhibpOkrvZCMRNItJo0xDdjTkyCUdbhuo15q9pM0H16itMfwDcboCcPiJYUGzKar2Kgkvjr9aCfdbDvOGZAdItQsc7uJI47VedUFvDF0xyhoRXhxXY3yE8JpqyjDrLrZAI2p08ur9EZCZB7AMO4COik6i0nMVsojXUcq4Qsj"
 
 #************************************************************************************#
 #                                                                                    #
