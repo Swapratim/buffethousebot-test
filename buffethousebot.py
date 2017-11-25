@@ -99,7 +99,7 @@ def welcome():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Hi " + first_name + "! Welcome to Buffet House Restaurant" + emoji.emojize(':smiley:', use_aliases=True),
+                                   "title" : "Hi " + first_name + "! Welcome to Buffet House Restaurant" + emoji.emojize(':pray:', use_aliases=True),
                                    "image_url" : "http://gdurl.com/tjDK",
                                  } 
                            ]
