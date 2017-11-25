@@ -73,27 +73,7 @@ user_name = ""
 def welcome():
     print ("within welcome method")
     dataload = request.json
-    print (dataload)
-    if dataload is None:
-        return {}
-
-    entry = dataload.get('originalRequest')
-    if entry is None:
-        return {}
-
-    data1 = entry.get('data')
-    print ("data1:::::::::::::::")
-    print (data1)
-    if data1 is None:
-        return {}
-
-    sender = data1.get('sender')
-    print ("sender::::::::::")
-    print (sender)
-    if sender is None:
-        return {}
-
-    id = sender.get('id')
+    id = dataload.get('originalRequest').get('data').get('sender').get('id')
     print ("id :" + id)
     fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
     print (fb_info)
@@ -183,7 +163,7 @@ def reply(user_id, msg):
 #                English Default Menu                                                #
 #                                                                                    #
 #************************************************************************************#
-def englishDefaultMenu():
+def englishDefaultMenu(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -448,7 +428,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
 #                            ITEMS                                                   #
 #                                                                                    #
 #************************************************************************************#
-def engMenuCriteriaMenuItems():
+def engMenuCriteriaMenuItems(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -499,7 +479,7 @@ def engMenuCriteriaMenuItems():
 #                            STARTER                                                 #
 #                                                                                    #
 #************************************************************************************#
-def engMenuCriteriaMenuItemsStarter():
+def engMenuCriteriaMenuItemsStarter(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -574,7 +554,7 @@ def engMenuCriteriaMenuItemsStarter():
 #                            MAIN DISH                                               #
 #                                                                                    #
 #************************************************************************************#
-def engMenuCriteriaMenuItemsMainDish():
+def engMenuCriteriaMenuItemsMainDish(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -674,7 +654,7 @@ def engMenuCriteriaMenuItemsMainDish():
 #                            DESSERT                                                 #
 #                                                                                    #
 #************************************************************************************#
-def engMenuCriteriaMenuItemsDessert():
+def engMenuCriteriaMenuItemsDessert(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -769,7 +749,7 @@ def engMenuCriteriaMenuItemsDessert():
 #                            SPECIAL                                                 #
 #                                                                                    #
 #************************************************************************************#
-def engMenuCriteriaMenuItemsSpecialMenu():
+def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -854,7 +834,7 @@ def engMenuCriteriaMenuItemsSpecialMenu():
 #                            TAKE AWAY                                               #
 #                                                                                    #
 #************************************************************************************#
-def engDefaultMenuTakeAway():
+def engDefaultMenuTakeAway(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -1018,7 +998,7 @@ def engDefaultMenuTakeAway():
 #                            ORDER BOOKING                                           #
 #                                                                                    #
 #************************************************************************************#
-def engDefaultMenuOrderBooking():
+def engDefaultMenuOrderBooking(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -1089,7 +1069,7 @@ def engDefaultMenuOrderBooking():
 #                            OPENING HOURS                                           #
 #                                                                                    #
 #************************************************************************************#
-def engDefaultMenuOpeningHours():
+def engDefaultMenuOpeningHours(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
@@ -1152,7 +1132,7 @@ def engDefaultMenuOpeningHours():
 #                            CONTACT US                                              #
 #                                                                                    #
 #************************************************************************************#
-def engDefaultMenuContactUs():
+def engDefaultMenuContactUs(reqContext):
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
             "speech": "Main Menu",
