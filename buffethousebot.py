@@ -557,6 +557,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "subtitle" : "Available at 89,-",
                                  },
                                  {
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/PDOn",
+                                   "subtitle" : "Available at 79, 89,-",
+                                 },
+                                 {
                                    "title" : "Palak Paneer",
                                    "image_url" : "http://gdurl.com/jFhH",
                                    "subtitle" : "Available at 79,-",
