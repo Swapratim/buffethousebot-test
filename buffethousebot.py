@@ -544,7 +544,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                  {
                                    "title" : "Chicken/Beef/Lamb Korma",
                                    "image_url" : "http://gdurl.com/TQ2f",
-                                   "subtitle" : "A special Moghul dish originated in India, traced back to 16th century \nAvailable only at 85, 95 & 99,-",
+                                   "subtitle" : "A Moghul dish of Indian origin from 16th century \nAvailable only at 85, 95 & 99,-",
                                  },
                                  {
                                    "title" : "Butter Chicken/Beef/Lamb",
@@ -554,7 +554,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                  {
                                    "title" : "Chicken/Beef/Lamb Roganjosh",
                                    "image_url" : "http://gdurl.com/RRTP",
-                                   "subtitle" : "A Moghul dish introduced to India & influenced by Persian cuisine \nAvailable only at 89,-",
+                                   "subtitle" : "An Indian Moghul dish, influenced by Persian cuisine \nAvailable only at 89,-",
                                  },
                                  {
                                    "title" : "Palak Paneer",
@@ -565,6 +565,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/hKV1",
                                    "subtitle" : "A speciality you must try here \nAvailable only at 75, 79 & 109,-",
+                                },
+                                {
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/chrv",
+                                   "subtitle" : "Available at 79, 89,-",
                                 }
                         ]
                  } 
