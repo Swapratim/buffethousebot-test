@@ -47,7 +47,7 @@ def webhook():
     elif reqContext.get("result").get("action") == "eng.Default.Main.Menu": 
        return englishDefaultMainMenu(reqContext)
     elif reqContext.get("result").get("action") == "danish.Menu.Criteria.Menu":
-       return danishhMenuCriteriaMenu(reqContext)
+       return danishMenuCriteriaMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu":
        return englishMenuCriteriaMenu(reqContext)
     elif reqContext.get("result").get("action") == "danish.Menu.Criteria.Menu.Buffet":
