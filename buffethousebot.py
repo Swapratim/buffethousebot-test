@@ -279,7 +279,7 @@ def englishMenuCriteriaMenu(reqContext):
                    }
                 },
         {
-      "text": "Please select any of the menu from above. \nTo view other options, please click below options:",
+      "text": "To view other options, please click below options:",
       "quick_replies": [
         {
           "content_type": "text",
@@ -336,13 +336,16 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                     "sender_action": "typing_on"
                },
                {
-                "text": "Do not miss the great Indian delicious buffet!" + emoji.emojize(':bowtie:', use_aliases=True)
+                "text": "Do not miss the great Indian delicious buffet!"
                },
                {
                     "sender_action": "typing_on"
                },
                {
-                "text": "Buffet available all day from 17-21 for only 99,- "
+                "text": "Buffet is available everyday from 17:00-21:00 only at 99,- "
+               },
+               {
+                    "sender_action": "typing_on"
                },
                {
                 "text": "For children under 10 year, the buffet price is 59.- only"
@@ -531,7 +534,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                  {
                                    "title" : "Nan/Garlic Nan",
                                    "image_url" : "http://gdurl.com/swcc",
-                                   "subtitle" : "Available at 19, 23,-",
+                                   "subtitle" : "Fresh baked Nan from Tandoor oven \nAvailable at 19, 23,-",
                                  }
                         ]
                  } 
