@@ -1393,7 +1393,7 @@ def danishDefaultMenu(reqContext):
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Take Away dansk",
+                  "payload": "dansktakeaway",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -1451,7 +1451,7 @@ def danishDefaultMainMenu(reqContext):
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Take Away dansk",
+                  "payload": "dansktakeaway",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -1881,7 +1881,7 @@ def danMenuCriteriaMenuItemsMainDish(reqContext):
 #                            DESSERT                                                 #
 #                                                                                    #
 #************************************************************************************#
-def engMenuCriteriaMenuItemsDessert(reqContext):
+def danMenuCriteriaMenuItemsDessert(reqContext):
     print (reqContext.get("result").get("resolvedQuery"))
     resolvedQuery = reqContext.get("result").get("resolvedQuery")
     res = {
@@ -2312,7 +2312,7 @@ def danDefaultMenuOrderBooking(reqContext):
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Take Away dansk",
+                  "payload": "dansktakeaway",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -2387,7 +2387,7 @@ def danDefaultMenuOpeningHours(reqContext):
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Take Away dansk",
+                  "payload": "dansktakeaway",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -2480,7 +2480,7 @@ def danDefaultMenuContactUs(reqContext):
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Take Away dansk",
+                  "payload": "dansktakeaway",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
