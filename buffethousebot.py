@@ -42,28 +42,52 @@ def webhook():
        return danishDefaultMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.default.menu":
        return englishDefaultMenu(reqContext)
-    elif reqContext.get("result").get("action") == "eng.Default.Main.Menu":  
+    elif reqContext.get("result").get("action") == "dan.Default.Main.Menu":  
+       return danishDefaultMainMenu(reqContext)
+    elif reqContext.get("result").get("action") == "eng.Default.Main.Menu": 
        return englishDefaultMainMenu(reqContext)
+    elif reqContext.get("result").get("action") == "danish.Menu.Criteria.Menu":
+       return danishhMenuCriteriaMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu":
        return englishMenuCriteriaMenu(reqContext)
+    elif reqContext.get("result").get("action") == "danish.Menu.Criteria.Menu.Buffet":
+       return danishMenuCriteriaMenuBuffet(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu.Buffet":
        return englishMenuCriteriaMenuBuffet(reqContext)
+    elif reqContext.get("result").get("action") == "dan.Menu.Criteria.Menu.Items":
+       return danMenuCriteriaMenuItems(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items":
        return engMenuCriteriaMenuItems(reqContext)
+    elif reqContext.get("result").get("action") == "dan.Menu.Criteria.Menu.Items.Starter":
+       return danMenuCriteriaMenuItemsStarter(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.Starter":
        return engMenuCriteriaMenuItemsStarter(reqContext)
+    elif reqContext.get("result").get("action") == "dan.Menu.Criteria.Menu.Items.MainDish":
+       return danMenuCriteriaMenuItemsMainDish(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.MainDish":
        return engMenuCriteriaMenuItemsMainDish(reqContext)
+    elif reqContext.get("result").get("action") == "dan.Menu.Criteria.Menu.Items.Dessert":
+       return danMenuCriteriaMenuItemsDessert(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.Dessert":
        return engMenuCriteriaMenuItemsDessert(reqContext)
+    elif reqContext.get("result").get("action") == "dan.Menu.Criteria.Special.Offer":
+       return danMenuCriteriaMenuItemsSpecialMenu(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Special.Offer":
        return engMenuCriteriaMenuItemsSpecialMenu(reqContext)
+    elif reqContext.get("result").get("action") == "dan.default.menu.take.away":
+       return danDefaultMenuTakeAway(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.take.away":
        return engDefaultMenuTakeAway(reqContext)
+    elif reqContext.get("result").get("action") == "dan.default.menu.order.booking":
+       return danDefaultMenuOrderBooking(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.order.booking": 
        return engDefaultMenuOrderBooking(reqContext)
+    elif reqContext.get("result").get("action") == "dan.default.menu.opening.hours":
+       return danDefaultMenuOpeningHours(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.opening.hours":
        return engDefaultMenuOpeningHours(reqContext)
+    elif reqContext.get("result").get("action") == "dan.default.menu.contact.us": 
+       return danDefaultMenuContactUs(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.contact.us": 
        return engDefaultMenuContactUs(reqContext)
     else:
@@ -476,8 +500,8 @@ def engMenuCriteriaMenuItems(reqContext):
                 },
                 {
                      "content_type": "text",
-                     "title": "Main Dish",
-                     "payload": "Main Dish",
+                     "title": "Main Course",
+                     "payload": "Main Course",
                      "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
                 },
                 {
@@ -532,22 +556,22 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
                                  {
                                    "title" : "Poppadom",
                                    "image_url" : "http://gdurl.com/5HcY",
-                                   "subtitle" : "Indian snack speciality",
+                                   "subtitle" : "Indian snack speciality \nAvailable only at 39,-",
                                  },
                                  {
                                    "title" : "Chapli Kebab",
                                    "image_url" : "http://gdurl.com/p1Am",
-                                   "subtitle" : "Pashtun-style minced kebab, originated from Peshawar",
+                                   "subtitle" : "Pashtun-style minced kebab, originated from Peshawar \nAvailable only at 65,-",
                                  },
                                  {
                                    "title" : "Samosa",
                                    "image_url" : "http://gdurl.com/8qBs",
-                                   "subtitle" : "It was originated in the Middle East back at 10th century",
+                                   "subtitle" : "Originated in Middle East back at 10th century \nAvailable only at 49,-",
                                  },
                                  {
                                    "title" : "Salad",
                                    "image_url" : "http://gdurl.com/n6Gl",
-                                   "subtitle" : "An ancient Greek & Roman delicacy",
+                                   "subtitle" : "An ancient Greek & Roman delicacy \nAvailable only at 29,-",
                                  },
                              ]
                        } 
@@ -559,8 +583,8 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
       "quick_replies": [
         {
          "content_type": "text",
-         "title": "Main Dish",
-         "payload": "Main Dish",
+         "title": "Main Course",
+         "payload": "Main Course",
          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
         },
         {
@@ -769,8 +793,8 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
         },
         {
          "content_type": "text",
-         "title": "Main Dish",
-         "payload": "Main Dish",
+         "title": "Main Course",
+         "payload": "Main Course",
          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
         },
         {
@@ -853,12 +877,6 @@ def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
         {
       "text": "Please select any option below:",
       "quick_replies": [
-        {
-          "content_type": "text",
-          "title": "Back",
-          "payload": "Back",
-          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
-        },
         {
           "content_type": "text",
           "title": "Menu",
@@ -1369,7 +1387,7 @@ def danishDefaultMenu(reqContext):
                  {
                   "content_type": "text",
                   "title": "Menu",
-                  "payload": "Menu",
+                  "payload": "Menu dansk",
                   "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                  },
                  {
@@ -1405,6 +1423,1095 @@ def danishDefaultMenu(reqContext):
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return r
+#************************************************************************************#
+#                                                                                    #
+#                Main Menu - Quick Reply Options Only                                #
+#                                                                                    #
+#************************************************************************************#
+def danishDefaultMainMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Vælg venligst nedenstående muligheder:",
+                  "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "Menu",
+                  "payload": "Menu dansk",
+                  "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Tag Væk",
+                  "payload": "Tag Væk",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Bestille Bestilling",
+                  "payload": "Bestille Bestilling",
+                  "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Åbningstider",
+                  "payload": "Åbningstider",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Kontakt Os",
+                  "payload": "Kontakt Os",
+                  "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                MENU ITEMS = Buffet + Items + Special                               #
+#                                                                                    #
+#************************************************************************************#
+def danishMenuCriteriaMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "Buffet House Menu",
+                                   "image_url" : "http://gdurl.com/xdw5",
+                                   "subtitle" : "Bedste i byen retter, valgt kun til dig",
+                                   "buttons": [{
+                                        "type": "postback",
+                                        "title": "Buffet",
+                                        "payload":"Buffet Danish"
+                                    },
+                                    {
+                                        "type": "postback",
+                                        "title": "Retter",
+                                        "payload": "Menu Items Danish"
+                                    },
+                                    {
+                                        "type": "postback",
+                                        "title": "Special Tilbud",
+                                        "payload": "Special Tilbud"
+                                    }]
+                                 }
+                           ]
+                       } 
+                   }
+                },
+        {
+      "text": "To view other options, please click below options:",
+      "quick_replies": [
+        {
+          "content_type": "text",
+          "title": "Hjem",
+          "payload": "Hjem",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Åbningstider",
+          "payload": "Åbningstider",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+        },
+        {
+          "content_type": "text",
+          "title": "Kontakt Os",
+          "payload": "Kontakt Os",
+          "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Start Forfra",
+          "payload": "Start Forfra",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+        }
+       ]
+     }]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            BUFFET                                                  #
+#                                                                                    #
+#************************************************************************************#
+def danishMenuCriteriaMenuBuffet (reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Events",
+            "displayText": "Events",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/RyLb"
+                     }
+                 }
+               },
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                "text": "Gå ikke glip af den store indiske lækre buffet!"
+               },
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                "text": "Buffet er tilgængelig hver dag fra kl. 17.00 til 21.00 kun på 99, - "
+               },
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                "text": "For børn under 10 år er buffetprisen 59.- kun"
+               },
+               
+        {
+      "text": "For at se andre muligheder, skal du klikke på nedenstående valgmuligheder:",
+      "quick_replies": [
+        {
+          "content_type": "text",
+          "title": "Menu",
+          "payload": "Menu dansk",
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Hjem",
+          "payload": "Hjem",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Start Forfra",
+          "payload": "Start Forfra",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+        }
+       ]
+     }]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            ITEMS                                                   #
+#                                                                                    #
+#************************************************************************************#
+def danMenuCriteriaMenuItems(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Taste the best - enjoy the variety  of dishes selected",
+            "displayText": "Taste the best - enjoy the variety  of dishes selected",
+            "data" : {
+            "facebook" : [
+                {
+                   "sender_action": "typing_on"
+                },
+                {
+                   "text": "Smag det bedste - nyd det udvalgte udvalg af retter",
+                   "quick_replies": [
+                {
+                     "content_type": "text",
+                     "title": "Forretter",
+                     "payload": "Forretter",
+                     "image_url": "https://cdn1.iconfinder.com/data/icons/food-drinks-set-2/96/Soup-512.png"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Hovedret",
+                     "payload": "Hovedret",
+                     "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Dessert",
+                     "payload": "Dessert dansk",
+                     "image_url": "https://image.flaticon.com/icons/png/512/53/53628.png"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Menu",
+                     "payload": "Menu dansk",
+                     "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Hjem",
+                     "payload": "Hjem",
+                     "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+                },
+             ]
+         }
+      ]
+    } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            STARTER                                                 #
+#                                                                                    #
+#************************************************************************************#
+def danMenuCriteriaMenuItemsStarter(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "Poppadom",
+                                   "image_url" : "http://gdurl.com/5HcY",
+                                   "subtitle" : "Indisk snack specialitet \nKun tilgængelig på 35,-",
+                                 },
+                                 {
+                                   "title" : "Chapli Kebab",
+                                   "image_url" : "http://gdurl.com/p1Am",
+                                   "subtitle" : "Pashtun-stil hakket kebab, der stammer fra Peshawar \nKun tilgængelig på 65,-",
+                                 },
+                                 {
+                                   "title" : "Samosa",
+                                   "image_url" : "http://gdurl.com/8qBs",
+                                   "subtitle" : "Oprindelse i Mellemøsten tilbage på 10 århundrede \nKun tilgængelig på 49,-",
+                                 },
+                                 {
+                                   "title" : "Salat",
+                                   "image_url" : "http://gdurl.com/n6Gl",
+                                   "subtitle" : "En gammel græsk og romersk delikatesse \nKun tilgængelig på 29,-",
+                                 },
+                             ]
+                       } 
+                   }
+                },
+               
+        {
+      "text": "Vælg venligst et af nedenstående valgmuligheder:",
+      "quick_replies": [
+        {
+          "content_type": "text",
+          "title": "Hovedret",
+          "payload": "Hovedret",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Dessert",
+          "payload": "Dessert dansk",
+          "image_url": "https://image.flaticon.com/icons/png/512/53/53628.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Menu",
+          "payload": "Menu dansk",
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+        },
+        {
+           "content_type": "text",
+           "title": "Hjem",
+           "payload": "Hjem",
+           "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
+       ]
+     }]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            MAIN DISH                                               #
+#                                                                                    #
+#************************************************************************************#
+def danMenuCriteriaMenuItemsMainDish(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "Nan/Garlic Nan",
+                                   "image_url" : "http://gdurl.com/swcc",
+                                   "subtitle" : "Friskbagt Nan fra Tandoor Ovn \nKun tilgængelig på 19 & 23,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Curry",
+                                   "image_url" : "http://gdurl.com/76uW",
+                                   "subtitle" : "Curry er en verdensberømt skål i århundreder \nKun tilgængelig på 99, 109 & 119,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Korma",
+                                   "image_url" : "http://gdurl.com/TQ2f",
+                                   "subtitle" : "En Moghul skål af indisk oprindelse fra det 16. århundrede \nKun tilgængelig på 85, 95 & 99,-",
+                                 },
+                                 {
+                                   "title" : "Butter Chicken/Beef/Lamb",
+                                   "image_url" : "http://gdurl.com/orET",
+                                   "subtitle" : "Smag århundredets gamle passion for mad-elskere \nKun tilgængelig på 79, 99 & 109,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Roganjosh",
+                                   "image_url" : "http://gdurl.com/RRTP",
+                                   "subtitle" : "En Indisk Moghul skål, påvirket af persisk køkken \nKun tilgængelig på at 89,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/chrv",
+                                   "subtitle" : "Kasmiri køkkener serverer altid din smagsløg \nKun tilgængelig på 79, 89,-",
+                                 },
+                                 {
+                                   "title" : "Palak Paneer",
+                                   "image_url" : "http://gdurl.com/jFhH",
+                                   "subtitle" : "En vegetarisk skål fra det Indiske subkontinent \nKun tilgængelig på at 79,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Sag",
+                                   "image_url" : "http://gdurl.com/hKV1",
+                                   "subtitle" : "En specialitet du skal prøve her \nKun tilgængelig på 75, 79 & 109,-",
+                                }
+                        ]
+                 } 
+             }
+        },
+        {
+      "text": "Vælg venligst et af nedenstående valgmuligheder:",
+      "quick_replies": [
+        {
+         "content_type": "text",
+         "title": "Forretter",
+         "payload": "Forretter",
+         "image_url": "https://cdn1.iconfinder.com/data/icons/food-drinks-set-2/96/Soup-512.png"
+        },
+        {
+         "content_type": "text",
+         "title": "Dessert",
+         "payload": "Dessert dansk",
+         "image_url": "https://image.flaticon.com/icons/png/512/53/53628.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Menu",
+          "payload": "Menu dansk",
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Hjem",
+          "payload": "Hjem",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        }
+       ]
+     }
+    ]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            DESSERT                                                 #
+#                                                                                    #
+#************************************************************************************#
+def engMenuCriteriaMenuItemsDessert(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "Vanilije Milkshake",
+                                   "image_url" : "http://gdurl.com/V74H",
+                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                 },
+                                 {
+                                   "title" : "Pistacie Milkshake",
+                                   "image_url" : "http://gdurl.com/JjAF",
+                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                 },
+                                 {
+                                   "title" : "Jordbær Milkshake",
+                                   "image_url" : "http://gdurl.com/rU7E",
+                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                 },
+                                 {
+                                   "title" : "Chocolade Milkshake",
+                                   "image_url" : "http://gdurl.com/sA7I",
+                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                 },
+                                 {
+                                   "title" : "Mango Lasse Yoghurt",
+                                   "image_url" : "http://gdurl.com/kslO",
+                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                 },
+                                 {
+                                   "title" : "0,5L Sodavand",
+                                   "image_url" : "http://gdurl.com/zKOf",
+                                   "subtitle" : "Kun tilgængelig på 25,-",
+                                 },
+                                 {
+                                   "title" : "1,5L Sodavand",
+                                   "image_url" : "http://gdurl.com/hH4c",
+                                   "subtitle" : "Kun tilgængelig på 35,-",
+                                 },
+                                 {
+                                   "title" : "Kildevand",
+                                   "image_url" : "http://gdurl.com/Xs_K",
+                                   "subtitle" : "Kun tilgængelig på 25,-",
+                                 }
+                             ]
+                       } 
+                   }
+                },
+               
+        {
+      "text": "Vælg venligst et af nedenstående valgmuligheder:",
+      "quick_replies": [
+        {
+         "content_type": "text",
+         "title": "Forretter",
+         "payload": "Forretter",
+         "image_url": "https://cdn1.iconfinder.com/data/icons/food-drinks-set-2/96/Soup-512.png"
+        },
+        {
+         "content_type": "text",
+         "title": "Hovedret",
+         "payload": "Hovedret",
+         "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Menu",
+          "payload": "Menu dansk",
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Hjem",
+          "payload": "Hjem",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        }
+       ]
+     }]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            SPECIAL                                                 #
+#                                                                                    #
+#************************************************************************************#
+def danMenuCriteriaMenuItemsSpecialMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "Sabzi Biriyani",
+                                   "image_url" : "http://gdurl.com/QpGk",
+                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                 },
+                                 {
+                                   "title" : "Chicken Biriyani",
+                                   "image_url" : "http://gdurl.com/pRyi",
+                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                 },
+                                 {
+                                   "title" : "Chicken Tikka Biriyani",
+                                   "image_url" : "http://gdurl.com/RH5I",
+                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                 },
+                                 {
+                                   "title" : "Lamb Biriyani",
+                                   "image_url" : "http://gdurl.com/89Of",
+                                   "subtitle" : "Kun tilgængelig på 139,-",
+                                 },
+                                 {
+                                   "title" : "Beef Biriyani",
+                                   "image_url" : "http://gdurl.com/dHh8",
+                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                 },
+                                 {
+                                   "title" : "Luksus Biriyani",
+                                   "image_url" : "http://gdurl.com/EUAwK",
+                                   "subtitle" : "Kun tilgængelig på 139,-",
+                                 }
+                             ]
+                       } 
+                   }
+                },
+               
+        {
+      "text": "Vælg venligst et af nedenstående valgmuligheder:",
+      "quick_replies": [
+        {
+          "content_type": "text",
+          "title": "Menu dansk",
+          "payload": "Menu dansk",
+          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Hjem",
+          "payload": "Hjem",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Start Forfra",
+          "payload": "Start Forfra",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+        }
+       ]
+     }]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            TAKE AWAY                                               #
+#                                                                                    #
+#************************************************************************************#
+def danDefaultMenuTakeAway(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                "text": "Folk elsker at tage væk vores mad for at nyde hjemme"
+               },
+               {
+                "text": "Derfor har vi lavet specielle pakker til afhentning."
+               },
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/HNzO"
+                     }
+                 }
+               },
+               {
+                    "sender_action": "typing_on"
+               },
+               {
+                "text": "Vi tager også engrosordre til fester eller samling. Vi leverer mad lige ved døren lige i nærheden Aarhus."
+               },
+               {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "M1-Butter Chicken & Sag Allo",
+                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "subtitle" : "Available only at 79,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M2-Lam Korma & Chicken Curry",
+                                   "image_url" : "http://gdurl.com/x77y",
+                                   "subtitle" : "Available only at 79,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }],
+                                 },
+                                 {
+                                   "title" : "M3-Beef Roganjosh & Chicken Kofta",
+                                   "image_url" : "http://gdurl.com/2VdE",
+                                   "subtitle" : "Available only at 79,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M4-Chicken Tikka & Samosa",
+                                   "image_url" : "http://gdurl.com/NkeOL",
+                                   "subtitle" : "Available only at 79,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M5-Kofta Butter Masala & Samosa (Veg)",
+                                   "image_url" : "http://gdurl.com/Hq0P",
+                                   "subtitle" : "Available only at 89,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M6-Lam Korma & Beef Roganjosh",
+                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "subtitle" : "Available only at 89,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M7-Chicken Tikka & Beef Roganjosh",
+                                   "image_url" : "http://gdurl.com/x77y",
+                                   "subtitle" : "Available only at 89,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M8-Beef Roganjosh & Chicken Curry",
+                                   "image_url" : "http://gdurl.com/2VdE",
+                                   "subtitle" : "Available only at 89,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M9-Lamb Korma & Chicken Kofta",
+                                   "image_url" : "http://gdurl.com/NkeOL",
+                                   "subtitle" : "Available only at 89,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 },
+                                 {
+                                   "title" : "M10-Kofta Curry & Samosa (Veg)",
+                                   "image_url" : "http://gdurl.com/Hq0P",
+                                   "subtitle" : "Available only at 99,-",
+                                   "buttons": [{
+                                        "type": "web_url",
+                                        "url": "https://indiskbuffet.dk/",
+                                        "title": "Bestil nu"
+                                    }]
+                                 }
+                             ]
+                       } 
+                   }
+                },
+        {
+      "text": "Vælg venligst et af nedenstående valgmuligheder:",
+      "quick_replies": [
+        {
+          "content_type": "text",
+          "title": "Hjem",
+          "payload": "Hjem",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Åbningstider",
+          "payload": "Åbningstider",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+        },
+        {
+          "content_type": "text",
+          "title": "Kontakt Os",
+          "payload": "Kontakt Os",
+          "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+        }
+       ]
+     }]
+   } 
+ };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            ORDER BOOKING                                           #
+#                                                                                    #
+#************************************************************************************#
+def danDefaultMenuOrderBooking(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Vil du tilbringe en smuk aften på vores sted? Ring til os nu for bordbestilling."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "text": "Vi tager også ordre til fest. Bare rolig! Vi leverer mad lige uden for døren."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/QFrQ"
+                     }
+                 }
+               },
+                {
+                   "attachment":{
+                   "type":"template",
+                   "payload":{
+                   "template_type":"button",
+                   "text":"Har du brug for yderligere assistance? Tal med en repræsentant",
+                   "buttons":[
+                       {
+                        "type":"phone_number",
+                        "title":"Ring Buffet House",
+                        "payload":"+4570707649"
+                       }
+                     ]
+                   }
+                  }
+                },
+                {
+                  "text": "Du kan også vælge nedenstående valgmuligheder",
+                  "quick_replies": [
+                  {
+                  "content_type": "text",
+                  "title": "Hjem",
+                  "payload": "Hjem",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Menu",
+                  "payload": "Menu dansk",
+                  "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Tag Væk",
+                  "payload": "Tag Væk",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Bestille Bestilling",
+                  "payload": "Bestille Bestilling",
+                  "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Åbningstider",
+                  "payload": "Åbningstider",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Kontakt Os",
+                  "payload": "Kontakt Os",
+                  "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            OPENING HOURS                                           #
+#                                                                                    #
+#************************************************************************************#
+def danDefaultMenuOpeningHours(reqContext):
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Vi er åbne hver dag. Vi inviterer dig til at smage de bedste indiske køkkener her."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "text": "Mandag-Torsdag: 16:00 - 21:00\nFredag-Søndag: 16:00 - 21:30 "
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Du kan også vælge nedenstående valgmuligheder",
+                  "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "Hjem",
+                  "payload": "Hjem",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Menu",
+                  "payload": "Menu dansk",
+                  "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Tag Væk",
+                  "payload": "Tag Væk",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Bestille Bestilling",
+                  "payload": "Bestille Bestilling",
+                  "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Kontakt Os",
+                  "payload": "Kontakt Os",
+                  "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                            CONTACT US                                              #
+#                                                                                    #
+#************************************************************************************#
+def danDefaultMenuContactUs(reqContext):
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Oplev det bedste indiske køkken her på Buffet House"
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "text": "Vi er beliggende inden for gåafstand fra centralstationen og Dokk1"
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "text": "Vi har også tilstrækkelig parkeringsplads, så tøv ikke med at bringe din gruppe til den bedste indiske spisestue i Århus."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/QFrQ"
+                     }
+                 }
+                },
+                {
+                   "attachment":{
+                   "type":"template",
+                   "payload":{
+                   "template_type":"button",
+                   "text":"Har du brug for yderligere assistance? Tal med en repræsentant",
+                   "buttons":[
+                       {
+                        "type":"phone_number",
+                        "title":"Ring Buffet House",
+                        "payload":"+4570707649"
+                       }
+                     ]
+                   }
+                  }
+                },
+                {
+                  "text": "Du kan også vælge nedenstående valgmuligheder",
+                  "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "Menu",
+                  "payload": "Menu dansk",
+                  "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Tag Væk",
+                  "payload": "Tag Væk",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Bestille Bestilling",
+                  "payload": "Bestille Bestilling",
+                  "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Åbningstider",
+                  "payload": "Åbningstider",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Start Forfra",
+                  "payload": "Start Forfra",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+                 }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+
+
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 7000))
     print("Starting APPLICATION on port %d" % port)
