@@ -550,6 +550,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Butter Chicken/Beef/Lamb",
                                    "image_url" : "http://gdurl.com/orET",
                                    "subtitle" : "Available at 79, 99, 109,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/PDOn",
+                                   "subtitle" : "Available at 79, 89,-",
                                  }
                         ]
                  } 
