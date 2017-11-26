@@ -535,6 +535,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Nan/Garlic Nan",
                                    "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven \nAvailable at 19, 23,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Curry",
+                                   "image_url" : "http://gdurl.com/76uW",
+                                   "subtitle" : "Available at 99, 109, 119,-",
                                  }
                         ]
                  } 
