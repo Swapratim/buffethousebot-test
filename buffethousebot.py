@@ -344,7 +344,21 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                {
                 "text": "Buffet available all day from 17-21 for only 99 dk.\nFor children under 10 year, it is 59 dk only "
                },
-               
+               {
+                 "attachment" : {
+                   "type" : "template",
+                     "payload" : {
+                      "template_type" : "generic",
+                       "elements" : [ 
+                                 {
+                                   "title" : "Nan",
+                                   "image_url" : "http://gdurl.com/swcc",
+                                   "subtitle" : "Fresh baked Nan from Tandoor oven",
+                                 }
+                           ]
+                       } 
+                   }
+                },
         {
       "text": "To view other options, please click below options:",
       "quick_replies": [
