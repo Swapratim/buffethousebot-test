@@ -38,8 +38,10 @@ def webhook():
     #print ("****************")
     if reqContext.get("result").get("action") == "input.welcome":
        return welcome()
-    elif reqContext.get("result").get("action") == "english.default.menu": 
+    elif reqContext.get("result").get("action") == "english.default.menu":
        return englishDefaultMenu(reqContext)
+    elif reqContext.get("result").get("action") == "eng.Default.Main.Menu":  
+       return englishDefaultMainMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu":
        return englishMenuCriteriaMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.Menu.Criteria.Menu.Buffet":
@@ -234,6 +236,64 @@ def englishDefaultMenu(reqContext):
     return r
 #************************************************************************************#
 #                                                                                    #
+#                Main Menu - Quick Reply Options Only                                #
+#                                                                                    #
+#************************************************************************************#
+def englishDefaultMainMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Please select the below options:",
+                  "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "Menu",
+                  "payload": "Menu",
+                  "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Take Away",
+                  "payload": "Take Away",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Order Booking",
+                  "payload": "Order Booking",
+                  "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Opening Hours",
+                  "payload": "Opening Hours",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Contact Us",
+                  "payload": "Contact Us",
+                  "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
 #                MENU ITEMS = Buffet + Items + Special                               #
 #                                                                                    #
 #************************************************************************************#
@@ -283,9 +343,9 @@ def englishMenuCriteriaMenu(reqContext):
       "quick_replies": [
         {
           "content_type": "text",
-          "title": "Start Over",
-          "payload": "Start Over",
-          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+          "title": "Home",
+          "payload": "Home",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
         },
         {
           "content_type": "text",
@@ -298,6 +358,12 @@ def englishMenuCriteriaMenu(reqContext):
           "title": "Contact Us",
           "payload": "Contact Us",
           "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Start Over",
+          "payload": "Start Over",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
         }
        ]
      }]
@@ -361,6 +427,12 @@ def englishMenuCriteriaMenuBuffet (reqContext):
          "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
+          "content_type": "text",
+          "title": "Home",
+          "payload": "Home",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
+        {
          "content_type": "text",
          "title": "Start Over",
          "payload": "Start Over",
@@ -414,10 +486,16 @@ def engMenuCriteriaMenuItems(reqContext):
                 },
                 {
                      "content_type": "text",
-                     "title": "Back",
-                     "payload": "Back",
-                     "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
-                }
+                     "title": "Menu",
+                     "payload": "Menu",
+                     "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                },
+                {
+                     "content_type": "text",
+                     "title": "Home",
+                     "payload": "Home",
+                     "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+                },
              ]
          }
       ]
@@ -496,11 +574,11 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
-          "content_type": "text",
-          "title": "Start Over",
-          "payload": "Start Over",
-          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
-        }
+           "content_type": "text",
+           "title": "Home",
+           "payload": "Home",
+           "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+        },
        ]
      }]
    } 
@@ -598,9 +676,9 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
         },
         {
           "content_type": "text",
-          "title": "Start Over",
-          "payload": "Start Over",
-          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+          "title": "Home",
+          "payload": "Home",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
         }
        ]
      }
@@ -701,9 +779,9 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
         },
         {
           "content_type": "text",
-          "title": "Start Over",
-          "payload": "Start Over",
-          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+          "title": "Home",
+          "payload": "Home",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
         }
        ]
      }]
@@ -784,6 +862,12 @@ def engMenuCriteriaMenuItemsSpecialMenu(reqContext):
           "title": "Menu",
           "payload": "Menu",
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+        },
+        {
+          "content_type": "text",
+          "title": "Home",
+          "payload": "Home",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
         },
         {
           "content_type": "text",
@@ -953,9 +1037,9 @@ def engDefaultMenuTakeAway(reqContext):
       "quick_replies": [
         {
           "content_type": "text",
-          "title": "Start Over",
-          "payload": "Start Over",
-          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/72551-200.png"
+          "title": "Home",
+          "payload": "Home",
+          "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
         },
         {
           "content_type": "text",
@@ -994,17 +1078,25 @@ def engDefaultMenuOrderBooking(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                "text": "Do you want to spend a beautiful evening at our place? Please book table beforehand."
+                "text": "Do you want to spend a beautiful evening at our place? Call us now for table booking."
                 },
                 {
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "You can also book order for any party. Don't worry! We'll deliver food at your doorstep."
+                 "text": "We also take order for party. Don't worry! We'll deliver food at your doorstep."
                 },
                 {
                     "sender_action": "typing_on"
                 },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/QFrQ"
+                     }
+                 }
+               },
                 {
                    "attachment":{
                    "type":"template",
@@ -1047,7 +1139,13 @@ def engDefaultMenuOrderBooking(reqContext):
                   "title": "Contact Us",
                   "payload": "Contact Us",
                   "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
-                  }
+                  },
+                 {
+                  "content_type": "text",
+                  "title": "Home",
+                  "payload": "Home",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+                 },
                  ]
                 }
               ]
@@ -1110,6 +1208,12 @@ def engDefaultMenuOpeningHours(reqContext):
                   "title": "Contact Us",
                   "payload": "Contact Us",
                   "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  },
+                  {
+                   "content_type": "text",
+                   "title": "Home",
+                   "payload": "Home",
+                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
                   }
                  ]
                 }
@@ -1142,7 +1246,7 @@ def engDefaultMenuContactUs(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "We are within walking distance of Central Station and Dokk1"
+                 "text": "We are located within walking distance of Central Station and Dokk1"
                 },
                 {
                     "sender_action": "typing_on"
@@ -1152,6 +1256,14 @@ def engDefaultMenuContactUs(reqContext):
                 },
                 {
                     "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/QFrQ"
+                     }
+                 }
                 },
                 {
                    "attachment":{
@@ -1189,6 +1301,12 @@ def engDefaultMenuContactUs(reqContext):
                   "title": "Order Booking",
                   "payload": "Order Booking",
                   "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Home",
+                  "payload": "Home",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
                  },
                  {
                   "content_type": "text",
