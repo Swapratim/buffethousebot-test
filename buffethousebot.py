@@ -1006,12 +1006,20 @@ def engDefaultMenuOrderBooking(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "Please call us our representative"
-                },
-                {
-                 "type":"phone_number",
-                 "title":"Call Buffet House",
-                 "payload":"+4570707649"
+                   "attachment":{
+                   "type":"template",
+                   "payload":{
+                   "template_type":"button",
+                   "text":"Need further assistance? Talk to a representative",
+                   "buttons":[
+                       {
+                        "type":"phone_number",
+                        "title":"Call Buffet House",
+                        "payload":"+4570707649"
+                       }
+                     ]
+                   }
+                  }
                 },
                 {
                   "text": "You can select the below options also",
@@ -1146,12 +1154,20 @@ def engDefaultMenuContactUs(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "Please call us our representative"
-                },
-                {
-                 "type":"phone_number",
-                 "title":"Call Buffet House",
-                 "payload":"+4570707649"
+                   "attachment":{
+                   "type":"template",
+                   "payload":{
+                   "template_type":"button",
+                   "text":"Need further assistance? Talk to a representative",
+                   "buttons":[
+                       {
+                        "type":"phone_number",
+                        "title":"Call Buffet House",
+                        "payload":"+4570707649"
+                       }
+                     ]
+                   }
+                  }
                 },
                 {
                   "text": "You can select the below options also",
