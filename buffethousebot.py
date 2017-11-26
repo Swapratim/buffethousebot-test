@@ -1387,13 +1387,13 @@ def danishDefaultMenu(reqContext):
                  {
                   "content_type": "text",
                   "title": "Menu",
-                  "payload": "Menu dansk",
+                  "payload": "danskmenu",
                   "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                  },
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Tag Væk",
+                  "payload": "Take Away dansk",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -1445,13 +1445,13 @@ def danishDefaultMainMenu(reqContext):
                  {
                   "content_type": "text",
                   "title": "Menu",
-                  "payload": "Menu dansk",
+                  "payload": "danskmenu",
                   "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                  },
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Tag Væk",
+                  "payload": "Take Away dansk",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -1611,7 +1611,7 @@ def danishMenuCriteriaMenuBuffet (reqContext):
         {
           "content_type": "text",
           "title": "Menu",
-          "payload": "Menu dansk",
+          "payload": "danskmenu",
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
@@ -1674,7 +1674,7 @@ def danMenuCriteriaMenuItems(reqContext):
                 {
                      "content_type": "text",
                      "title": "Menu",
-                     "payload": "Menu dansk",
+                     "payload": "danskmenu",
                      "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                 },
                 {
@@ -1757,7 +1757,7 @@ def danMenuCriteriaMenuItemsStarter(reqContext):
         {
           "content_type": "text",
           "title": "Menu",
-          "payload": "Menu dansk",
+          "payload": "danskmenu",
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
@@ -1858,7 +1858,7 @@ def danMenuCriteriaMenuItemsMainDish(reqContext):
         {
           "content_type": "text",
           "title": "Menu",
-          "payload": "Menu dansk",
+          "payload": "danskmenu",
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
@@ -1961,7 +1961,7 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
         {
           "content_type": "text",
           "title": "Menu",
-          "payload": "Menu dansk",
+          "payload": "danskmenu",
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
@@ -2040,8 +2040,8 @@ def danMenuCriteriaMenuItemsSpecialMenu(reqContext):
       "quick_replies": [
         {
           "content_type": "text",
-          "title": "Menu dansk",
-          "payload": "Menu dansk",
+          "title": "Menu",
+          "payload": "danskmenu",
           "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
         },
         {
@@ -2306,13 +2306,13 @@ def danDefaultMenuOrderBooking(reqContext):
                  {
                   "content_type": "text",
                   "title": "Menu",
-                  "payload": "Menu dansk",
+                  "payload": "danskmenu",
                   "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                  },
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Tag Væk",
+                  "payload": "Take Away dansk",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -2381,13 +2381,13 @@ def danDefaultMenuOpeningHours(reqContext):
                  {
                   "content_type": "text",
                   "title": "Menu",
-                  "payload": "Menu dansk",
+                  "payload": "danskmenu",
                   "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                  },
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Tag Væk",
+                  "payload": "Take Away dansk",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
@@ -2474,13 +2474,13 @@ def danDefaultMenuContactUs(reqContext):
                  {
                   "content_type": "text",
                   "title": "Menu",
-                  "payload": "Menu dansk",
+                  "payload": "danskmenu",
                   "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
                  },
                  {
                   "content_type": "text",
                   "title": "Tag Væk",
-                  "payload": "Tag Væk",
+                  "payload": "Take Away dansk",
                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
                  },
                  {
