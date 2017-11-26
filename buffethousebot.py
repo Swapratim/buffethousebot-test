@@ -1528,7 +1528,7 @@ def danishMenuCriteriaMenu(reqContext):
                    }
                 },
         {
-      "text": "To view other options, please click below options:",
+      "text": "Vælg venligst et af nedenstående valgmuligheder:",
       "quick_replies": [
         {
           "content_type": "text",
