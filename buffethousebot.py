@@ -354,6 +354,11 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                                    "title" : "Nan",
                                    "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven",
+                                 },
+                                 {
+                                   "title" : "Pulav Rice",
+                                   "image_url" : "http://gdurl.com/KQEo",
+                                   "subtitle" : "Tasty Pulav Rice",
                                  }
                            ]
                        } 
