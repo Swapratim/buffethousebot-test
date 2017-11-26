@@ -555,6 +555,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Chicken/Beef/Lamb Roganjosh",
                                    "image_url" : "http://gdurl.com/RRTP",
                                    "subtitle" : "Available at 89,-",
+                                 },
+                                 {
+                                   "title" : "Palak Paneer",
+                                   "image_url" : "http://gdurl.com/jFhH",
+                                   "subtitle" : "Available at 79,-",
                                  }
                         ]
                  } 
