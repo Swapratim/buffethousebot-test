@@ -1510,17 +1510,17 @@ def danishMenuCriteriaMenu(reqContext):
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Buffet",
-                                        "payload":"Buffet Danish"
+                                        "payload":"danskbuffet"
                                     },
                                     {
                                         "type": "postback",
                                         "title": "Retter",
-                                        "payload": "Menu Items Danish"
+                                        "payload": "retter"
                                     },
                                     {
                                         "type": "postback",
                                         "title": "Special Tilbud",
-                                        "payload": "Special Tilbud"
+                                        "payload": "tilbudspecial"
                                     }]
                                  }
                            ]
