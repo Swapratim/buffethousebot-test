@@ -534,42 +534,37 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                  {
                                    "title" : "Nan/Garlic Nan",
                                    "image_url" : "http://gdurl.com/swcc",
-                                   "subtitle" : "Fresh baked Nan from Tandoor oven \nAvailable at 19, 23,-",
+                                   "subtitle" : "Fresh baked Nan from Tandoor oven \nAvailable only at 19 & 23,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Curry",
                                    "image_url" : "http://gdurl.com/76uW",
-                                   "subtitle" : "Available at 99, 109, 119,-",
+                                   "subtitle" : "Curry is a world famous dish across centuries \nAvailable only at 99, 109 & 119,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Korma",
                                    "image_url" : "http://gdurl.com/TQ2f",
-                                   "subtitle" : "Available at 85, 95, 99,-",
+                                   "subtitle" : "A special Moghul dish originated in India, traced back to 16th century \nAvailable only at 85, 95 & 99,-",
                                  },
                                  {
                                    "title" : "Butter Chicken/Beef/Lamb",
                                    "image_url" : "http://gdurl.com/orET",
-                                   "subtitle" : "Available at 79, 99, 109,-",
+                                   "subtitle" : "Taste the century old passion for food-lovers \nAvailable only at 79, 99 & 109,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Roganjosh",
                                    "image_url" : "http://gdurl.com/RRTP",
-                                   "subtitle" : "Available at 89,-",
-                                 },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Kashmiri",
-                                   "image_url" : "http://gdurl.com/PDOn",
-                                   "subtitle" : "Available at 79, 89,-",
+                                   "subtitle" : "A Moghul dish introduced to India & influenced by Persian cuisine \nAvailable only at 89,-",
                                  },
                                  {
                                    "title" : "Palak Paneer",
                                    "image_url" : "http://gdurl.com/jFhH",
-                                   "subtitle" : "Available at 79,-",
+                                   "subtitle" : "A vegetarian dish from the Indian Subcontinent \nAvailable only at 79,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/hKV1",
-                                   "subtitle" : "Available at 75, 79, 109,-",
+                                   "subtitle" : "A speciality you must try here \nAvailable only at 75, 79 & 109,-",
                                 }
                         ]
                  } 
