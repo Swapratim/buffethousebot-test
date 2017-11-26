@@ -38,6 +38,8 @@ def webhook():
     #print ("****************")
     if reqContext.get("result").get("action") == "input.welcome":
        return welcome()
+    elif reqContext.get("result").get("action") == "danish.default.menu":
+       return danishDefaultMenu(reqContext)
     elif reqContext.get("result").get("action") == "english.default.menu":
        return englishDefaultMenu(reqContext)
     elif reqContext.get("result").get("action") == "eng.Default.Main.Menu":  
@@ -120,7 +122,7 @@ def welcome():
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "I’m Indiskbot at your service."
+                 "text": "I'm the chatbot at your service."
                 },
                 {
                   "text": "Please select your language",
@@ -1323,8 +1325,86 @@ def engDefaultMenuContactUs(reqContext):
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return r
- 
 
+#************************************************************************************************************************************#
+#                                                                                                                                    #
+#                                                                                                                                    #
+#                      DANISH - ALL THE FUNCTIONS BELOW WILL BE RELATED TO DANISH LANGUAGE                                           #
+#                                                                                                                                    #
+#                                                                                                                                    #
+#************************************************************************************************************************************#
+#************************************************************************************#
+#                                                                                    #
+#                Danish Default Menu                                                #
+#                                                                                    #
+#************************************************************************************#
+def danishDefaultMenu(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Main Menu",
+            "displayText": "Main Menu",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Tak for at vælge dansk og velkommen igen."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"http://gdurl.com/y0fi"
+                     }
+                 }
+               },
+                {
+                  "text": "Hvordan kan jeg hjælpe dig?",
+                  "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "Menu",
+                  "payload": "Menu",
+                  "image_url": "https://cdn1.iconfinder.com/data/icons/hotel-restaurant/512/16-512.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Tag Væk",
+                  "payload": "Tag Væk",
+                  "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/66559-200.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Bestille Bestilling",
+                  "payload": "Bestille Bestilling",
+                  "image_url": "http://is5.mzstatic.com/image/thumb/Purple18/v4/77/13/96/771396f0-8059-c536-d17c-1806d9e22931/source/1200x630bb.jpg"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Åbningstider",
+                  "payload": "Åbningstider",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBeHDCh_So0LEhyWapjjilpDFiRLXMaeuwUfc1rrxu3qShTCUqQ"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Kontakt Os",
+                  "payload": "Kontakt Os",
+                  "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 7000))
     print("Starting APPLICATION on port %d" % port)
