@@ -399,7 +399,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                                    "title" : "Allo Dum",
                                    "image_url" : "http://gdurl.com/5N-C",
                                    "subtitle" : "Do not miss the tasty vegeterian dish",
-                                 }
+                                 },
                            ]
                        } 
                    }
