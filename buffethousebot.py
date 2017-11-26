@@ -560,7 +560,12 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Palak Paneer",
                                    "image_url" : "http://gdurl.com/jFhH",
                                    "subtitle" : "Available at 79,-",
-                                 }
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Sag",
+                                   "image_url" : "http://gdurl.com/hKV1",
+                                   "subtitle" : "Available at 75, 79, 109,-",
+                                }
                         ]
                  } 
              }
