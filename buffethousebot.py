@@ -354,16 +354,6 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                                    "title" : "Nan",
                                    "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven",
-                                 },
-                                 {
-                                   "title" : "Pulav Rice",
-                                   "image_url" : "http://gdurl.com/KQEo",
-                                   "subtitle" : "Tasty Pulav Rice",
-                                 },
-                                 {
-                                   "title" : "Samosa",
-                                   "image_url" : "http://gdurl.com/8qBs",
-                                   "subtitle" : "Authentic Indian Sanck - cannot eat just one",
                                  }
                            ]
                        } 
