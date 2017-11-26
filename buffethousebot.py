@@ -545,6 +545,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Chicken/Beef/Lamb Korma",
                                    "image_url" : "http://gdurl.com/TQ2f",
                                    "subtitle" : "Available at 85, 95, 99,-",
+                                 },
+                                 {
+                                   "title" : "Butter Chicken/Beef/Lamb",
+                                   "image_url" : "http://gdurl.com/orET",
+                                   "subtitle" : "Available at 79, 99, 109,-",
                                  }
                         ]
                  } 
