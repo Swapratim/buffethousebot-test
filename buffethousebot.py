@@ -52,13 +52,15 @@ def webhook():
        return engMenuCriteriaMenuItemsMainDish(reqContext)
     elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Menu.Items.Dessert":
        return engMenuCriteriaMenuItemsDessert(reqContext)
+    elif reqContext.get("result").get("action") == "eng.Menu.Criteria.Special.Offer":
+       return engMenuCriteriaMenuItemsSpecialMenu(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.take.away":
        return engDefaultMenuTakeAway(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.order.booking": 
        return engDefaultMenuOrderBooking(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.opening.hours":
        return engDefaultMenuOpeningHours(reqContext)
-    elif reqContext.get("result").get("action") == "eng.default.menu.contact.us":
+    elif reqContext.get("result").get("action") == "eng.default.menu.contact.us": 
        return engDefaultMenuContactUs(reqContext)
     else:
        print("Good Bye")
@@ -334,7 +336,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                     "sender_action": "typing_on"
                },
                {
-                "text": "Try our big delicious buffet with a wide variety of dishes, appetizers and salads"
+                "text": "Try our big delicious buffet."
                },
                {
                     "sender_action": "typing_on"
@@ -403,7 +405,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                    }
                 },
         {
-      "text": "Taste our Chef's special excuisite dishes at reasonable price. \nTo view other options, please click below options:",
+      "text": "To view other options, please click below options:",
       "quick_replies": [
         {
          "content_type": "text",
