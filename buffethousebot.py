@@ -336,34 +336,18 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                     "sender_action": "typing_on"
                },
                {
-                "text": "Try our big delicious buffet."
+                "text": "Do not miss the great Indian delicious buffet!" + emoji.emojize(':bowtie:', use_aliases=True)
                },
                {
                     "sender_action": "typing_on"
                },
                {
-                "text": "Buffet available all day from 17-21 for only 99 dk.\nFor children under 10 year, it is 59 dk only "
+                "text": "Buffet available all day from 17-21 for only 99,- "
                },
                {
-                 "attachment" : {
-                   "type" : "template",
-                     "payload" : {
-                      "template_type" : "generic",
-                       "elements" : [ 
-                                 {
-                                   "title" : "Nan",
-                                   "image_url" : "http://gdurl.com/swcc",
-                                   "subtitle" : "Fresh baked Nan from Tandoor oven",
-                                 },
-                                 {
-                                   "title" : "Pulav Rice",
-                                   "image_url" : "http://gdurl.com/KQEo",
-                                   "subtitle" : "Tasty Pulav Rice",
-                                 }
-                           ]
-                       } 
-                   }
-                },
+                "text": "For children under 10 year, the buffet price is 59.- only"
+               },
+               
         {
       "text": "To view other options, please click below options:",
       "quick_replies": [
@@ -548,42 +532,7 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Nan/Garlic Nan",
                                    "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Available at 19, 23,-",
-                                 },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Curry",
-                                   "image_url" : "http://gdurl.com/76uW",
-                                   "subtitle" : "Available at 99, 109, 119,-",
-                                 },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Korma",
-                                   "image_url" : "http://gdurl.com/TQ2f",
-                                   "subtitle" : "Available at 85, 95, 99,-",
-                                 },
-                                 {
-                                   "title" : "Butter Chicken/Beef/Lamb",
-                                   "image_url" : "http://gdurl.com/orET",
-                                   "subtitle" : "Available at 79, 99, 109,-",
-                                 },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Kashmiri",
-                                   "image_url" : "http://gdurl.com/PDOn",
-                                   "subtitle" : "Available at 79, 89,-",
-                                 },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Roganjosh",
-                                   "image_url" : "http://gdurl.com/RRTP",
-                                   "subtitle" : "Available at 89,-",
-                                 },
-                                 {
-                                   "title" : "Palak Paneer",
-                                   "image_url" : "http://gdurl.com/jFhH",
-                                   "subtitle" : "Available at 79,-",
-                                 },
-                                 {
-                                   "title" : "Chicken/Beef/Lamb Sag",
-                                   "image_url" : "http://gdurl.com/hKV1",
-                                   "subtitle" : "Available at 75, 79, 109,-",
-                                }
+                                 }
                         ]
                  } 
              }
