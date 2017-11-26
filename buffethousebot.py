@@ -369,7 +369,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                                    "title" : "Chicken Tandoori",
                                    "image_url" : "http://gdurl.com/7rwk",
                                    "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
-                                 },
+                                 }
                                  
                            ]
                        } 
@@ -502,10 +502,16 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
       "text": "Please select any option below:",
       "quick_replies": [
         {
-          "content_type": "text",
-          "title": "Back",
-          "payload": "Back",
-          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
+         "content_type": "text",
+         "title": "Main Dish",
+         "payload": "Main Dish",
+         "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
+        },
+        {
+         "content_type": "text",
+         "title": "Dessert",
+         "payload": "Dessert",
+         "image_url": "https://image.flaticon.com/icons/png/512/53/53628.png"
         },
         {
           "content_type": "text",
@@ -585,15 +591,10 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "subtitle" : "Available at 79,-",
                                  },
                                  {
-                                   "title" : "Sag Allo",
-                                   "image_url" : "http://gdurl.com/ALue",
-                                   "subtitle" : "Available at 69,-",
-                                 },
-                                 {
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/hKV1",
                                    "subtitle" : "Available at 75, 79, 109,-",
-                                },
+                                }
                         ]
                  } 
              }
@@ -602,10 +603,16 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
       "text": "Please select any option below:",
       "quick_replies": [
         {
-          "content_type": "text",
-          "title": "Back",
-          "payload": "Back",
-          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
+         "content_type": "text",
+         "title": "Starter",
+         "payload": "Starter",
+         "image_url": "https://cdn1.iconfinder.com/data/icons/food-drinks-set-2/96/Soup-512.png"
+        },
+        {
+         "content_type": "text",
+         "title": "Dessert",
+         "payload": "Dessert",
+         "image_url": "https://image.flaticon.com/icons/png/512/53/53628.png"
         },
         {
           "content_type": "text",
@@ -699,10 +706,16 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
       "text": "Please select any option below:",
       "quick_replies": [
         {
-          "content_type": "text",
-          "title": "Back",
-          "payload": "Back",
-          "image_url": "https://cdn0.iconfinder.com/data/icons/large-black-icons/512/Undo_arrow_left_edit_back.png"
+         "content_type": "text",
+         "title": "Starter",
+         "payload": "Starter",
+         "image_url": "https://cdn1.iconfinder.com/data/icons/food-drinks-set-2/96/Soup-512.png"
+        },
+        {
+         "content_type": "text",
+         "title": "Main Dish",
+         "payload": "Main Dish",
+         "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/1394544-200.png"
         },
         {
           "content_type": "text",
