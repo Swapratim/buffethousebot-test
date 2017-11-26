@@ -557,6 +557,11 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "subtitle" : "An Indian Moghul dish, influenced by Persian cuisine \nAvailable only at 89,-",
                                  },
                                  {
+                                   "title" : "Chicken/Beef/Lamb Kashmiri",
+                                   "image_url" : "http://gdurl.com/chrv",
+                                   "subtitle" : "Kasmiri cuisines always serve your taste bud \nAvailable only at 79, 89,-",
+                                 },
+                                 {
                                    "title" : "Palak Paneer",
                                    "image_url" : "http://gdurl.com/jFhH",
                                    "subtitle" : "A vegetarian dish from the Indian Subcontinent \nAvailable only at 79,-",
@@ -565,11 +570,6 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/hKV1",
                                    "subtitle" : "A speciality you must try here \nAvailable only at 75, 79 & 109,-",
-                                },
-                                {
-                                   "title" : "Chicken/Beef/Lamb Kashmiri",
-                                   "image_url" : "http://gdurl.com/chrv",
-                                   "subtitle" : "Available at 79, 89,-",
                                 }
                         ]
                  } 
@@ -816,7 +816,10 @@ def engDefaultMenuTakeAway(reqContext):
                     "sender_action": "typing_on"
                },
                {
-                "text": "People love to take away our food to enjoy at home./nThat’s why we have created special packages for take away."
+                "text": "People love to take away our food to enjoy at home"
+               },
+               {
+                "text": "That’s why we have created special packages for take away."
                },
                {
                     "sender_action": "typing_on"
@@ -853,7 +856,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M2-Lamb Korma & Chicken Curry",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/x77y",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -863,7 +866,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M3-Beef Roganjosh & Chicken Kofta",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/2VdE",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -873,7 +876,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M4-Chicken Tikka & Samosa",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/NkeOL",
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -883,7 +886,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M5-Kofta Butter Masala & Samosa (Veg)",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/Hq0P",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -903,7 +906,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M7-Chicken Tikka & Beef Roganjosh",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/x77y",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -913,7 +916,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M8-Beef Roganjosh & Chicken Curry",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/2VdE",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -923,7 +926,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M9-Lamb Korma & Chicken Kofta",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/NkeOL",
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
@@ -933,7 +936,7 @@ def engDefaultMenuTakeAway(reqContext):
                                  },
                                  {
                                    "title" : "M10-Kofta Curry & Samosa (Veg)",
-                                   "image_url" : "http://gdurl.com/ZuLh",
+                                   "image_url" : "http://gdurl.com/Hq0P",
                                    "subtitle" : "Available only at 99,-",
                                    "buttons": [{
                                         "type": "web_url",
