@@ -354,6 +354,51 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                                    "title" : "Nan",
                                    "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven",
+                                 },
+                                 {
+                                   "title" : "Pulav Rice",
+                                   "image_url" : "http://gdurl.com/KQEo",
+                                   "subtitle" : "Tasty Pulav Rice",
+                                 },
+                                 {
+                                   "title" : "Samosa",
+                                   "image_url" : "http://gdurl.com/8qBs",
+                                   "subtitle" : "Authentic Indian Sanck - cannot eat just one",
+                                 },
+                                 {
+                                   "title" : "Chicken Tandoori",
+                                   "image_url" : "http://gdurl.com/7rwk",
+                                   "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
+                                 },
+                                 {
+                                   "title" : "Chicken Butter Masala",
+                                   "image_url" : "http://gdurl.com/orET",
+                                   "subtitle" : "A century old delicious dish - still favorite to food lovers",
+                                 },
+                                 {
+                                   "title" : "Beef Roganjosh",
+                                   "image_url" : "http://gdurl.com/RRTP",
+                                   "subtitle" : "An aromatic dish of Persian origin - one of the signature recipes of Kashmiri cuisine",
+                                 },
+                                 {
+                                   "title" : "Chicken Kofta Korma",
+                                   "image_url" : "http://gdurl.com/TQ2f",
+                                   "subtitle" : "Tasty and spicy equivalent of famous meatballs, originated in Middle East",
+                                 },
+                                 {
+                                   "title" : "Chicken Curry",
+                                   "image_url" : "http://gdurl.com/76uW",
+                                   "subtitle" : "A global cuisine, with Indian origin from heart - a must try dish",
+                                 },
+                                 {
+                                   "title" : "Sag Allo",
+                                   "image_url" : "http://gdurl.com/ALue",
+                                   "subtitle" : "Do not miss the tasty vegeterian dish",
+                                 },
+                                 {
+                                   "title" : "Allo Dum",
+                                   "image_url" : "http://gdurl.com/5N-C",
+                                   "subtitle" : "Do not miss the tasty vegeterian dish",
                                  }
                            ]
                        } 
