@@ -100,7 +100,7 @@ def welcome():
                        "elements" : [ 
                                  {
                                    "title" : "Hi " + first_name + "! Welcome to Buffet House Restaurant" + emoji.emojize(':pray:', use_aliases=True),
-                                   "image_url" : "http://gdurl.com/tjDK",
+                                   "image_url" : "http://gdurl.com/OelL",
                                  } 
                            ]
                        } 
@@ -184,7 +184,7 @@ def englishDefaultMenu(reqContext):
                  "attachment":{
                         "type":"image", 
                         "payload":{
-                        "url":"http://www.thehindubusinessline.com/multimedia/dynamic/02973/BL16_MAHARAJA_AIRI_2973400e.jpg"
+                        "url":"http://gdurl.com/y0fi"
                      }
                  }
                },
@@ -254,7 +254,7 @@ def englishMenuCriteriaMenu(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Buffet House Menu",
-                                   "image_url" : "http://gdurl.com/i3he",
+                                   "image_url" : "http://gdurl.com/xdw5",
                                    "subtitle" : "Best in town dishes, only for you.",
                                    "buttons": [{
                                         "type": "postback",
@@ -326,7 +326,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                  "attachment":{
                         "type":"image", 
                         "payload":{
-                        "url":"BUFFET DSLR IMAGE"
+                        "url":"http://gdurl.com/RyLb"
                      }
                  }
                },
@@ -350,52 +350,52 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Nan",
-                                   "image_url" : "http://gdurl.com/5gdU",
+                                   "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Fresh baked Nan from Tandoor oven",
                                  },
                                  {
                                    "title" : "Pulav Rice",
-                                   "image_url" : "http://gdurl.com/pXUU",
+                                   "image_url" : "http://gdurl.com/KQEo",
                                    "subtitle" : "Tasty Pulav Rice",
                                  },
                                  {
                                    "title" : "Samosa",
-                                   "image_url" : "http://gdurl.com/ntEB",
+                                   "image_url" : "http://gdurl.com/8qBs",
                                    "subtitle" : "Authentic Indian Sanck - cannot eat just one",
                                  },
                                  {
                                    "title" : "Chicken Tandoori",
-                                   "image_url" : "http://gdurl.com/iMs7",
+                                   "image_url" : "http://gdurl.com/7rwk",
                                    "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
                                  },
                                  {
                                    "title" : "Chicken Butter Masala",
-                                   "image_url" : "http://gdurl.com/R9sS",
+                                   "image_url" : "http://gdurl.com/orET",
                                    "subtitle" : "A century old delicious dish - still favorite to food lovers",
                                  },
                                  {
                                    "title" : "Beef Roganjosh",
-                                   "image_url" : "http://gdurl.com/lRxq",
+                                   "image_url" : "http://gdurl.com/RRTP",
                                    "subtitle" : "An aromatic dish of Persian origin - one of the signature recipes of Kashmiri cuisine",
                                  },
                                  {
                                    "title" : "Chicken Kofta Korma",
-                                   "image_url" : "http://gdurl.com/tTym",
+                                   "image_url" : "http://gdurl.com/TQ2f",
                                    "subtitle" : "Tasty and spicy equivalent of famous meatballs, originated in Middle East",
                                  },
                                  {
                                    "title" : "Chicken Curry",
-                                   "image_url" : "http://gdurl.com/EHRR",
+                                   "image_url" : "http://gdurl.com/76uW",
                                    "subtitle" : "A global cuisine, with Indian origin from heart - a must try dish",
                                  },
                                  {
                                    "title" : "Sag Allo",
-                                   "image_url" : "http://gdurl.com/6foJ",
+                                   "image_url" : "http://gdurl.com/ALue",
                                    "subtitle" : "Do not miss the tasty vegeterian dish",
                                  },
                                  {
                                    "title" : "Allo Dum",
-                                   "image_url" : "http://gdurl.com/n19M",
+                                   "image_url" : "http://gdurl.com/5N-C",
                                    "subtitle" : "Do not miss the tasty vegeterian dish",
                                  }
                            ]
@@ -502,22 +502,22 @@ def engMenuCriteriaMenuItemsStarter(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Poppadom",
-                                   "image_url" : "http://gdurl.com/o-sy",
+                                   "image_url" : "http://gdurl.com/5HcY",
                                    "subtitle" : "Indian snack speciality",
                                  },
                                  {
                                    "title" : "Chapli Kebab",
-                                   "image_url" : "http://gdurl.com/fexl",
+                                   "image_url" : "http://gdurl.com/p1Am",
                                    "subtitle" : "Pashtun-style minced kebab, originated from Peshawar",
                                  },
                                  {
                                    "title" : "Samosa",
-                                   "image_url" : "http://gdurl.com/ntEB",
+                                   "image_url" : "http://gdurl.com/8qBs",
                                    "subtitle" : "It was originated in the Middle East back at 10th century",
                                  },
                                  {
                                    "title" : "Salad",
-                                   "image_url" : "http://gdurl.com/A9X0",
+                                   "image_url" : "http://gdurl.com/n6Gl",
                                    "subtitle" : "An ancient Greek & Roman delicacy",
                                  },
                              ]
@@ -578,34 +578,49 @@ def engMenuCriteriaMenuItemsMainDish(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Nan/Garlic Nan",
-                                   "image_url" : "http://gdurl.com/5gdU",
+                                   "image_url" : "http://gdurl.com/swcc",
                                    "subtitle" : "Available at 19, 23,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Curry",
-                                   "image_url" : "http://gdurl.com/EHRR",
+                                   "image_url" : "http://gdurl.com/76uW",
                                    "subtitle" : "Available at 99, 109, 119,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Korma",
-                                   "image_url" : "http://gdurl.com/tTym",
+                                   "image_url" : "http://gdurl.com/TQ2f",
                                    "subtitle" : "Available at 85, 95, 99,-",
                                  },
                                  {
                                    "title" : "Butter Chicken/Beef/Lamb",
-                                   "image_url" : "http://gdurl.com/R9sS",
+                                   "image_url" : "http://gdurl.com/orET",
                                    "subtitle" : "Available at 79, 99, 109,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Kashmiri",
-                                   "image_url" : "http://gdurl.com/BldI",
+                                   "image_url" : "http://gdurl.com/PDOn",
                                    "subtitle" : "Available at 79, 89,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Roganjosh",
-                                   "image_url" : "http://gdurl.com/lRxq",
+                                   "image_url" : "http://gdurl.com/RRTP",
                                    "subtitle" : "Available at 89,-",
                                  },
+                                 {
+                                   "title" : "Palak Paneer",
+                                   "image_url" : "http://gdurl.com/jFhH",
+                                   "subtitle" : "Available at 79,-",
+                                 },
+                                 {
+                                   "title" : "Sag Allo",
+                                   "image_url" : "http://gdurl.com/ALue",
+                                   "subtitle" : "Available at 69,-",
+                                 },
+                                 {
+                                   "title" : "Chicken/Beef/Lamb Sag",
+                                   "image_url" : "http://gdurl.com/hKV1",
+                                   "subtitle" : "Available at 75, 79, 109,-",
+                                },
                         ]
                  } 
              }
@@ -664,42 +679,42 @@ def engMenuCriteriaMenuItemsDessert(reqContext):
                        "elements" : [ 
                                  {
                                    "title" : "Vanilla Milkshake",
-                                   "image_url" : "http://gdurl.com/JbfC",
+                                   "image_url" : "http://gdurl.com/V74H",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Pistacie Milkshake",
-                                   "image_url" : "http://gdurl.com/9qwM",
+                                   "image_url" : "http://gdurl.com/JjAF",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Strawberry Milkshake",
-                                   "image_url" : "http://gdurl.com/YJCbU",
+                                   "image_url" : "http://gdurl.com/rU7E",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Chocolate Milkshake",
-                                   "image_url" : "http://gdurl.com/hzul",
+                                   "image_url" : "http://gdurl.com/sA7I",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "Mango Lasse Yoghurt",
-                                   "image_url" : "http://gdurl.com/KKkO",
+                                   "image_url" : "http://gdurl.com/kslO",
                                    "subtitle" : "Available only at 39,-",
                                  },
                                  {
                                    "title" : "0,5L Sodawater",
-                                   "image_url" : "http://gdurl.com/t4bq",
+                                   "image_url" : "http://gdurl.com/zKOf",
                                    "subtitle" : "Available only at 25,-",
                                  },
                                  {
                                    "title" : "1,5L Sodavand",
-                                   "image_url" : "http://gdurl.com/t4bq",
+                                   "image_url" : "http://gdurl.com/hH4c",
                                    "subtitle" : "Available only at 35,-",
                                  },
                                  {
                                    "title" : "Cold Water",
-                                   "image_url" : "http://gdurl.com/D3Su",
+                                   "image_url" : "http://gdurl.com/Xs_K",
                                    "subtitle" : "Available only at 25,-",
                                  }
                              ]
