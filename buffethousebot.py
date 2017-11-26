@@ -359,18 +359,7 @@ def englishMenuCriteriaMenuBuffet (reqContext):
                                    "title" : "Pulav Rice",
                                    "image_url" : "http://gdurl.com/KQEo",
                                    "subtitle" : "Tasty Pulav Rice",
-                                 },
-                                 {
-                                   "title" : "Samosa",
-                                   "image_url" : "http://gdurl.com/8qBs",
-                                   "subtitle" : "Authentic Indian Sanck - cannot eat just one",
-                                 },
-                                 {
-                                   "title" : "Chicken Tandoori",
-                                   "image_url" : "http://gdurl.com/7rwk",
-                                   "subtitle" : "Invented in 1950s, this is an iconic Indian starter",
-                                 }
-                                 
+                                 } 
                            ]
                        } 
                    }
