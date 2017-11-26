@@ -954,7 +954,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -964,7 +964,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }],
                                  },
@@ -974,7 +974,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -984,7 +984,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -994,7 +994,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -1004,7 +1004,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -1014,7 +1014,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -1024,7 +1024,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -1034,7 +1034,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  },
@@ -1044,7 +1044,7 @@ def engDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 99,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Order Now"
                                     }]
                                  }
@@ -2115,7 +2115,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2125,7 +2125,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }],
                                  },
@@ -2135,7 +2135,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2145,7 +2145,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 79,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2155,7 +2155,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2165,7 +2165,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2175,7 +2175,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2185,7 +2185,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2195,7 +2195,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 89,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  },
@@ -2205,7 +2205,7 @@ def danDefaultMenuTakeAway(reqContext):
                                    "subtitle" : "Available only at 99,-",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "https://indiskbuffet.dk/",
+                                        "url": "http://buffet-house.dk/Menu",
                                         "title": "Bestil nu"
                                     }]
                                  }
