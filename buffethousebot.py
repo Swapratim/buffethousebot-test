@@ -1266,7 +1266,7 @@ def engDefaultMenuContactUs(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "We are located within walking distance of Central Station and Dokk1"
+                 "text": "We are located within walking distance of Rutebilstation and Dokk1"
                 },
                 {
                     "sender_action": "typing_on"
@@ -1596,7 +1596,7 @@ def danishMenuCriteriaMenuBuffet (reqContext):
                     "sender_action": "typing_on"
                },
                {
-                "text": "Buffet er tilgængelig hver dag fra kl. 17.00 til 21.00 kun på 99, - "
+                "text": "Buffet er tilgængelig hver dag fra kl. 17.00 til 21.00 kun for 99, - "
                },
                {
                     "sender_action": "typing_on"
@@ -1606,7 +1606,7 @@ def danishMenuCriteriaMenuBuffet (reqContext):
                },
                
         {
-      "text": "For at se andre muligheder, skal du klikke på nedenstående valgmuligheder:",
+      "text": "For at se andre muligheder, skal du klikke for nedenstående valgmuligheder:",
       "quick_replies": [
         {
           "content_type": "text",
@@ -1651,7 +1651,7 @@ def danMenuCriteriaMenuItems(reqContext):
                    "sender_action": "typing_on"
                 },
                 {
-                   "text": "Smag det bedste - nyd det udvalgte udvalg af retter",
+                   "text": "Smag det bedste - nyd vores udvalg af retter",
                    "quick_replies": [
                 {
                      "content_type": "text",
@@ -1717,22 +1717,22 @@ def danMenuCriteriaMenuItemsStarter(reqContext):
                                  {
                                    "title" : "Poppadom",
                                    "image_url" : "http://gdurl.com/5HcY",
-                                   "subtitle" : "Indisk snack specialitet \nKun tilgængelig på 35,-",
+                                   "subtitle" : "Indisk snack specialitet \nKun tilgængelig for 35,-",
                                  },
                                  {
                                    "title" : "Chapli Kebab",
                                    "image_url" : "http://gdurl.com/p1Am",
-                                   "subtitle" : "Pashtun-stil hakket kebab, der stammer fra Peshawar \nKun tilgængelig på 65,-",
+                                   "subtitle" : "Pashtun-stil hakket kebab, der stammer fra Peshawar \nKun tilgængelig for 65,-",
                                  },
                                  {
                                    "title" : "Samosa",
                                    "image_url" : "http://gdurl.com/8qBs",
-                                   "subtitle" : "Oprindelse i Mellemøsten tilbage på 10 århundrede \nKun tilgængelig på 49,-",
+                                   "subtitle" : "Oprindelse i Mellemøsten tilbage for 10 århundrede \nKun tilgængelig for 49,-",
                                  },
                                  {
                                    "title" : "Salat",
                                    "image_url" : "http://gdurl.com/n6Gl",
-                                   "subtitle" : "En gammel græsk og romersk delikatesse \nKun tilgængelig på 29,-",
+                                   "subtitle" : "En gammel græsk og romersk delikatesse \nKun tilgængelig for 29,-",
                                  },
                              ]
                        } 
@@ -1799,42 +1799,42 @@ def danMenuCriteriaMenuItemsMainDish(reqContext):
                                  {
                                    "title" : "Nan/Garlic Nan",
                                    "image_url" : "http://gdurl.com/swcc",
-                                   "subtitle" : "Friskbagt Nan fra Tandoor Ovn \nKun tilgængelig på 19 & 23,-",
+                                   "subtitle" : "Friskbagt Nan fra Tandoor Ovn \nKun tilgængelig for 19 & 23,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Curry",
                                    "image_url" : "http://gdurl.com/76uW",
-                                   "subtitle" : "Curry er en verdensberømt skål i århundreder \nKun tilgængelig på 99, 109 & 119,-",
+                                   "subtitle" : "Curry er en verdensberømt skål i århundreder \nKun tilgængelig for 99, 109 & 119,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Korma",
                                    "image_url" : "http://gdurl.com/TQ2f",
-                                   "subtitle" : "En Moghul skål af indisk oprindelse fra det 16. århundrede \nKun tilgængelig på 85, 95 & 99,-",
+                                   "subtitle" : "En Moghul skål af indisk oprindelse fra det 16. århundrede \nKun tilgængelig for 85, 95 & 99,-",
                                  },
                                  {
                                    "title" : "Butter Chicken/Beef/Lamb",
                                    "image_url" : "http://gdurl.com/orET",
-                                   "subtitle" : "Smag århundredets gamle passion for mad-elskere \nKun tilgængelig på 79, 99 & 109,-",
+                                   "subtitle" : "Smag århundredets gamle passion for mad-elskere \nKun tilgængelig for 79, 99 & 109,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Roganjosh",
                                    "image_url" : "http://gdurl.com/RRTP",
-                                   "subtitle" : "En Indisk Moghul skål, påvirket af persisk køkken \nKun tilgængelig på at 89,-",
+                                   "subtitle" : "En Indisk Moghul skål, forvirket af persisk køkken \nKun tilgængelig for at 89,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Kashmiri",
                                    "image_url" : "http://gdurl.com/chrv",
-                                   "subtitle" : "Kasmiri køkkener serverer altid din smagsløg \nKun tilgængelig på 79, 89,-",
+                                   "subtitle" : "Kasmiri køkkener serverer altid din smagsløg \nKun tilgængelig for 79, 89,-",
                                  },
                                  {
                                    "title" : "Palak Paneer",
                                    "image_url" : "http://gdurl.com/jFhH",
-                                   "subtitle" : "En vegetarisk skål fra det Indiske subkontinent \nKun tilgængelig på at 79,-",
+                                   "subtitle" : "En vegetarisk skål fra det Indiske subkontinent \nKun tilgængelig for at 79,-",
                                  },
                                  {
                                    "title" : "Chicken/Beef/Lamb Sag",
                                    "image_url" : "http://gdurl.com/hKV1",
-                                   "subtitle" : "En specialitet du skal prøve her \nKun tilgængelig på 75, 79 & 109,-",
+                                   "subtitle" : "En specialitet du skal prøve her \nKun tilgængelig for 75, 79 & 109,-",
                                 }
                         ]
                  } 
@@ -1901,42 +1901,42 @@ def danMenuCriteriaMenuItemsDessert(reqContext):
                                  {
                                    "title" : "Vanilije Milkshake",
                                    "image_url" : "http://gdurl.com/V74H",
-                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                   "subtitle" : "Kun tilgængelig for 39,-",
                                  },
                                  {
                                    "title" : "Pistacie Milkshake",
                                    "image_url" : "http://gdurl.com/JjAF",
-                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                   "subtitle" : "Kun tilgængelig for 39,-",
                                  },
                                  {
                                    "title" : "Jordbær Milkshake",
                                    "image_url" : "http://gdurl.com/rU7E",
-                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                   "subtitle" : "Kun tilgængelig for 39,-",
                                  },
                                  {
                                    "title" : "Chocolade Milkshake",
                                    "image_url" : "http://gdurl.com/sA7I",
-                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                   "subtitle" : "Kun tilgængelig for 39,-",
                                  },
                                  {
                                    "title" : "Mango Lasse Yoghurt",
                                    "image_url" : "http://gdurl.com/kslO",
-                                   "subtitle" : "Kun tilgængelig på 39,-",
+                                   "subtitle" : "Kun tilgængelig for 39,-",
                                  },
                                  {
                                    "title" : "0,5L Sodavand",
                                    "image_url" : "http://gdurl.com/zKOf",
-                                   "subtitle" : "Kun tilgængelig på 25,-",
+                                   "subtitle" : "Kun tilgængelig for 25,-",
                                  },
                                  {
                                    "title" : "1,5L Sodavand",
                                    "image_url" : "http://gdurl.com/hH4c",
-                                   "subtitle" : "Kun tilgængelig på 35,-",
+                                   "subtitle" : "Kun tilgængelig for 35,-",
                                  },
                                  {
                                    "title" : "Kildevand",
                                    "image_url" : "http://gdurl.com/Xs_K",
-                                   "subtitle" : "Kun tilgængelig på 25,-",
+                                   "subtitle" : "Kun tilgængelig for 25,-",
                                  }
                              ]
                        } 
@@ -2003,32 +2003,32 @@ def danMenuCriteriaMenuItemsSpecialMenu(reqContext):
                                  {
                                    "title" : "Sabzi Biriyani",
                                    "image_url" : "http://gdurl.com/QpGk",
-                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                   "subtitle" : "Kun tilgængelig for 119,-",
                                  },
                                  {
                                    "title" : "Chicken Biriyani",
                                    "image_url" : "http://gdurl.com/pRyi",
-                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                   "subtitle" : "Kun tilgængelig for 119,-",
                                  },
                                  {
                                    "title" : "Chicken Tikka Biriyani",
                                    "image_url" : "http://gdurl.com/RH5I",
-                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                   "subtitle" : "Kun tilgængelig for 119,-",
                                  },
                                  {
                                    "title" : "Lamb Biriyani",
                                    "image_url" : "http://gdurl.com/89Of",
-                                   "subtitle" : "Kun tilgængelig på 139,-",
+                                   "subtitle" : "Kun tilgængelig for 139,-",
                                  },
                                  {
                                    "title" : "Beef Biriyani",
                                    "image_url" : "http://gdurl.com/dHh8",
-                                   "subtitle" : "Kun tilgængelig på 119,-",
+                                   "subtitle" : "Kun tilgængelig for 119,-",
                                  },
                                  {
                                    "title" : "Luksus Biriyani",
                                    "image_url" : "http://gdurl.com/EUAwK",
-                                   "subtitle" : "Kun tilgængelig på 139,-",
+                                   "subtitle" : "Kun tilgængelig for 139,-",
                                  }
                              ]
                        } 
@@ -2081,7 +2081,7 @@ def danDefaultMenuTakeAway(reqContext):
                     "sender_action": "typing_on"
                },
                {
-                "text": "Folk elsker at tage væk vores mad for at nyde hjemme"
+                "text": "Folk elsker at tage vores mad med for at nyde hjemme"
                },
                {
                 "text": "Derfor har vi lavet specielle pakker til afhentning."
@@ -2110,9 +2110,9 @@ def danDefaultMenuTakeAway(reqContext):
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "M1-Butter Chicken & Sag Allo",
+                                   "title" : "M1-Butter Chicken og Sag Allo",
                                    "image_url" : "http://gdurl.com/ZuLh",
-                                   "subtitle" : "Available only at 79,-",
+                                   "subtitle" : "Kun tilgængelig for 79,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2120,9 +2120,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M2-Lam Korma & Chicken Curry",
+                                   "title" : "M2-Lam Korma og Chicken Curry",
                                    "image_url" : "http://gdurl.com/x77y",
-                                   "subtitle" : "Available only at 79,-",
+                                   "subtitle" : "Kun tilgængelig for 79,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2130,9 +2130,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }],
                                  },
                                  {
-                                   "title" : "M3-Beef Roganjosh & Chicken Kofta",
+                                   "title" : "M3-Beef Roganjosh og Chicken Kofta",
                                    "image_url" : "http://gdurl.com/2VdE",
-                                   "subtitle" : "Available only at 79,-",
+                                   "subtitle" : "Kun tilgængelig for 79,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2140,9 +2140,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M4-Chicken Tikka & Samosa",
+                                   "title" : "M4-Chicken Tikka og Samosa",
                                    "image_url" : "http://gdurl.com/NkeOL",
-                                   "subtitle" : "Available only at 79,-",
+                                   "subtitle" : "Kun tilgængelig for 79,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2150,9 +2150,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M5-Kofta Butter Masala & Samosa (Veg)",
+                                   "title" : "M5-Kofta Butter Masala og Samosa (Veg)",
                                    "image_url" : "http://gdurl.com/Hq0P",
-                                   "subtitle" : "Available only at 89,-",
+                                   "subtitle" : "Kun tilgængelig for 89,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2160,9 +2160,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M6-Lam Korma & Beef Roganjosh",
+                                   "title" : "M6-Lam Korma og Beef Roganjosh",
                                    "image_url" : "http://gdurl.com/ZuLh",
-                                   "subtitle" : "Available only at 89,-",
+                                   "subtitle" : "Kun tilgængelig for 89,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2170,9 +2170,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M7-Chicken Tikka & Beef Roganjosh",
+                                   "title" : "M7-Chicken Tikka og Beef Roganjosh",
                                    "image_url" : "http://gdurl.com/x77y",
-                                   "subtitle" : "Available only at 89,-",
+                                   "subtitle" : "Kun tilgængelig for 89,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2180,9 +2180,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M8-Beef Roganjosh & Chicken Curry",
+                                   "title" : "M8-Beef Roganjosh og Chicken Curry",
                                    "image_url" : "http://gdurl.com/2VdE",
-                                   "subtitle" : "Available only at 89,-",
+                                   "subtitle" : "Kun tilgængelig for 89,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2190,9 +2190,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M9-Lamb Korma & Chicken Kofta",
+                                   "title" : "M9-Lamb Korma og Chicken Kofta",
                                    "image_url" : "http://gdurl.com/NkeOL",
-                                   "subtitle" : "Available only at 89,-",
+                                   "subtitle" : "Kun tilgængelig for 89,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2200,9 +2200,9 @@ def danDefaultMenuTakeAway(reqContext):
                                     }]
                                  },
                                  {
-                                   "title" : "M10-Kofta Curry & Samosa (Veg)",
+                                   "title" : "M10-Kofta Curry og Samosa (Veg)",
                                    "image_url" : "http://gdurl.com/Hq0P",
-                                   "subtitle" : "Available only at 99,-",
+                                   "subtitle" : "Kun tilgængelig for 99,-",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://buffet-house.dk/Menu",
@@ -2259,7 +2259,7 @@ def danDefaultMenuOrderBooking(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                "text": "Vil du tilbringe en smuk aften på vores sted? Ring til os nu for bordbestilling."
+                "text": "Vil du tilbringe en smuk aften for vores sted? Ring til os nu for bordbestilling."
                 },
                 {
                     "sender_action": "typing_on"
@@ -2358,13 +2358,13 @@ def danDefaultMenuOpeningHours(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                "text": "Vi er åbne hver dag. Vi inviterer dig til at smage de bedste indiske køkkener her."
+                "text": "Vi har åbnet hver dag. Vi inviterer dig til at smage de bedste indiske retter her."
                 },
                 {
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "Mandag-Torsdag: 16:00 - 21:00\nFredag-Søndag: 16:00 - 21:30 "
+                 "text": "Mandag-Torsdag: 16:00-21:00\nFredag-Søndag: 16:00-21:30"
                 },
                 {
                     "sender_action": "typing_on"
@@ -2427,13 +2427,13 @@ def danDefaultMenuContactUs(reqContext):
                     "sender_action": "typing_on"
                 },
                 {
-                "text": "Oplev det bedste indiske køkken her på Buffet House"
+                "text": "Oplev det bedste indiske retter her for Buffet House"
                 },
                 {
                     "sender_action": "typing_on"
                 },
                 {
-                 "text": "Vi er beliggende inden for gåafstand fra centralstationen og Dokk1"
+                 "text": "Vi er beliggende inden for gåafstand fra Rutebilstation og Dokk1"
                 },
                 {
                     "sender_action": "typing_on"
