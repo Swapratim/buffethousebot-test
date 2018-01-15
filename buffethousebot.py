@@ -90,6 +90,10 @@ def webhook():
        return danDefaultMenuContactUs(reqContext)
     elif reqContext.get("result").get("action") == "eng.default.menu.contact.us": 
        return engDefaultMenuContactUs(reqContext)
+    elif reqContext.get("result").get("action") == "eng.special.offer": 
+       return specialoffer(reqContext)
+    elif reqContext.get("result").get("action") == "dan.special.offer": 
+       return specialtilbud(reqContext)
     else:
        print("Good Bye")
 
@@ -99,9 +103,10 @@ def webhook():
 #   This method is to get the Facebook User Deatails via graph.facebook.com/v2.6     #
 #                                                                                    #
 #************************************************************************************#
-user_name = ""
+user_name = None
 def welcome():
     print ("within welcome method")
+    global user_name
     dataload = request.json
     id = dataload.get('originalRequest').get('data').get('sender').get('id')
     print ("id :" + id)
@@ -219,8 +224,17 @@ def englishDefaultMenu(reqContext):
                  }
                },
                 {
-                  "text": "How can I help you?",
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Let me guide you to the virtual tour. Below are the most frequent topics of search.",
                   "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "SPECIAL OFFER",
+                  "payload": "SPECIAL OFFER",
+                  "image_url": "http://www.pricestickers.co.uk/ekmps/shops/pricestickers/images/special-offer-stickers-2056-p.png"
+                 },
                  {
                   "content_type": "text",
                   "title": "Menu",
@@ -260,6 +274,65 @@ def englishDefaultMenu(reqContext):
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return r
+
+#************************************************************************************#
+#                                                                                    #
+#                SPECIAL OFFER                                                       #
+#                                                                                    #
+#************************************************************************************#
+def specialoffer(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Special Offer",
+            "displayText": "Special Offer",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Hurray!! " + user_name + ", You're the LUCKY WINNER of the day."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Here is your LUCKY COUPON"
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"https://gdurl.com/SBdK2"
+                     }
+                 }
+               },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Show this coupon to Buffet House reception and Enjoy the Royal Indian Buffet!",
+                  "quick_replies": [
+                 {
+                   "content_type": "text",
+                   "title": "Home",
+                   "payload": "Home",
+                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+
 #************************************************************************************#
 #                                                                                    #
 #                Main Menu - Quick Reply Options Only                                #
@@ -1382,8 +1455,17 @@ def danishDefaultMenu(reqContext):
                  }
                },
                 {
-                  "text": "Hvordan kan jeg hjælpe dig?",
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Lad mig lede dig til den virtuelle tour. Nedenfor er de hyppigste emner for søgning.",
                   "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "SPECIAL TILBUD",
+                  "payload": "SPECIAL TILBUD",
+                  "image_url": "http://www.pricestickers.co.uk/ekmps/shops/pricestickers/images/special-offer-stickers-2056-p.png"
+                 },
                  {
                   "content_type": "text",
                   "title": "Menu",
@@ -1413,6 +1495,63 @@ def danishDefaultMenu(reqContext):
                   "title": "Kontakt Os",
                   "payload": "Kontakt Os",
                   "image_url": "https://cdn3.iconfinder.com/data/icons/communication-mass-media-news/512/phone_marketing-128.png"
+                  }
+                 ]
+                }
+              ]
+            }  
+           };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+#************************************************************************************#
+#                                                                                    #
+#                SPECIAL OFFER - DANISH                                              #
+#                                                                                    #
+#************************************************************************************#
+def specialtilbud(reqContext):
+    print (reqContext.get("result").get("resolvedQuery"))
+    resolvedQuery = reqContext.get("result").get("resolvedQuery")
+    res = {
+            "speech": "Special Tilbud",
+            "displayText": "Special Tilbud",
+            "data" : {
+            "facebook" : [
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Hurray!! " + user_name + ", Du er dagens LYKKELIGE VINDER."
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                "text": "Her er din LUCKY COUPON"
+                },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                 "attachment":{
+                        "type":"image", 
+                        "payload":{
+                        "url":"https://gdurl.com/SBdK2"
+                     }
+                 }
+               },
+                {
+                    "sender_action": "typing_on"
+                },
+                {
+                  "text": "Vis denne kupon til Buffet House modtagelse og nyd Royal Indian Buffet!",
+                  "quick_replies": [
+                 {
+                   "content_type": "text",
+                   "title": "Hjem",
+                   "payload": "Hjem",
+                   "image_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/77002-200.png"
                   }
                  ]
                 }
